@@ -1,6 +1,7 @@
 @extends('layouts.mainLayout')
 
 @section('content')
+
      <!-- Hero Slider -->
      <div class="hero-slider owl-carousel owl-theme">
         <div class="hero-slider-item item-bg3">
@@ -80,11 +81,13 @@
     <!-- End Contact Area -->
 
     <!-- About Area --> 
+    
     <div class="about-area pb-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
-                    <div class="about-contant">
+
+                <div class="col-lg-7 wow fadeInLeft slower">
+                    <div style="" class="about-contant">
                         <div class="section-title">
                             <!-- <span>About Us</span> -->
                             <h2>POINTOUT COURIER</h2>
@@ -100,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow bounceInDown delay-1s slower">
                     <div class="about-image">
                         <img src="{{asset('img/about/about1.png')}}" alt="about-image">
                     </div>
@@ -172,7 +175,7 @@
     <!-- End Services Area -->
 
     <!-- Choose Area -->
-    <div class="choose-area">
+    <div style="animation-duration: 2s;" class="wow zoomIn choose-area">
 
         <div class="shape-one">
             <img src="{{asset('img/shape/shape5.png')}}" alt="Shape">
@@ -236,7 +239,7 @@
     <!-- End Choose Area -->
 
     <!-- Speciality Slider Area -->
-    <div style="padding-bottom:10px;" class="speciality-area">
+    <div style="padding-bottom:10px; animation-duration: 2s;" class="wow fadeInUp speciality-area">
         <div class="container">
             <div class="section-title"><br/>
                 <span>OUR PROCESS</span>

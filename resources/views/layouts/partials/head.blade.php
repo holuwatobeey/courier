@@ -18,7 +18,9 @@
         <!-- Odometer CSS -->
         <link rel="stylesheet" href="{{ asset('css/odometer.css')}}">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="{{ asset('css/animate.min.css')}}">
+        {{-- <link rel="stylesheet" href="{{ asset('css/animate.min.css')}}"> --}}
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
         <!-- Stylesheet CSS -->
         <link rel="stylesheet" href="{{ asset('css/style.css')}}">
         <!-- Stylesheet Responsive CSS -->
@@ -28,4 +30,5 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Title -->
         <title>POINTOUT COURIER</title>
+
     </head>
