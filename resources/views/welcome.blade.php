@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero-slider-item item-bg1">
+        {{-- <div class="hero-slider-item item-bg1">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         
     </div>
@@ -243,7 +243,7 @@
         <div class="container">
             <div class="section-title"><br/>
                 <span>OUR PROCESS</span>
-                <h2>Easy and Effective</h2>
+                <h2>Is Hassle-Free</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
@@ -272,7 +272,10 @@
                     </div>
                 </div>
             </div>
-            <h4 class="text-center"><i>TRACKING - Total Transparency, More Control</i></h4>
+            <h4 class="text-center"><i>TRACKING - Total Transparency, More Control</i></h4><br/><br/>
+
+            <!-- Choose Area -->
+
 
 
             <!-- <div class="speciality-slider owl-carousel owl-theme">
@@ -311,6 +314,67 @@
         </div>
     </div>
     <!-- End Speciality Slider Area -->
+    <div style="background: #f5f5f5;" class="choose-area">
+
+        <div class="shape-one">
+            <img src="{{asset('img/shape/shape5.png')}}" alt="Shape">
+        </div>
+        <div class="container">
+             <div class="col-lg-12 col-md-12">
+                    <div class="choose-text">
+                        <div class="section-ttle">
+                            <br/>
+                            <span style="  font-size: 13px;
+                            font-weight: 600;
+                            display: block;
+                            margin-bottom: 15px;
+                            color: #f21860;
+                            line-height: 1;" class="text-center">Delivery Options</span>
+                            <h2 style="color:#301d44;" class="text-center">Speedy And Secured</h2>
+                        </div>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+    
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> -->
+    
+                        <!-- <a href="#" class="default-btn-one">Contact Us</a> -->
+                        <div class="shape-image">
+                            <img src="{{asset('img/shape/shape2.png')}}" alt="icon">
+                        </div>
+                    </div>
+                </div><br/>
+            <div class="row justify-content-center">
+                    <div style="height:182m !important;" class="col-md-4 choose-contant">
+                        <div style="padding-top:2%;" class="choose-card">
+                            <!-- <i class='bx bx-world'></i> -->
+                            <h3>Same Day Delivery </h3>
+                            <p>When it’s absolutely important it gets there today, we won’t be beaten on speed or efficiency. Just call us or use our online booking service.</p>
+                        </div>
+                    </div>
+    
+                    <div style="height:12em !important;" class="col-md-4 choose-contant">
+                        <div style="padding-top:2%;" class="choose-card">
+                            <!-- <i class='bx bxs-paper-plane'></i> -->
+                            <h3>Next Day Delivery</h3>
+                            <p>Getting your parcel where it needs to be is our top priority and with our range of next day delivery services you can have it there even faster than you thought. </p>
+                        </div>
+                    </div>
+    
+                    <div style="height:12em !important;" class="col-md-4 choose-contant">
+                        <div style="padding-top:2%;" class="choose-card">
+                            <!-- <i class='bx bxs-truck'></i> -->
+                            <h3>Premium Delivery</h3>
+                            <p>For urgent deliveries, when even Same Day Delivery isn’t fast enough, we are reliable and on point to assist  with your delivery.</p>
+                        </div>
+                    </div>
+    
+                  
+    
+               
+            </div>
+        </div>
+    </div>
+    <!-- End Choose Area -->
+    
 
     <!-- Testimonials Slider Area -->
     <!-- <div class="testimonials-area ptb-100">

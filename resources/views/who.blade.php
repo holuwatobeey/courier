@@ -8,7 +8,7 @@
                             <div class="page-content">
                                 <h2>Our Services</h2>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li>Who We Serve</li>
                                 </ul>
                             </div>
@@ -27,33 +27,33 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="service-card">
-                        <i class='bx bxs-truck'></i>
+                <div style="height:28em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-network-chart'></i>
                         <h3>BUSINESSES </h3>
                         <p>Whether you’re a small business or a large business, we specialise in pickup and delivery of parcels, documents, items and palette of goods with full end-to-end tracking in real time, giving you total transparency.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="service-card">
-                        <i class='bx bxs-truck'></i>
+                <div  style="height:28em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-user'></i>
                         <h3>INDIVIDUALS</h3>
                         <p>For package deliveries within the city, Pointout is here to serve you. we provide a cost-effective, guaranteed same day or next day Domestic delivery service. Simple to book, uniquely priced, safe and speedily delivered to your doorstep.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="service-card">
+                <div style="height:28em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
                         <i class='bx bxs-truck'></i>
                         <h3>RETAIL</h3>
                         <p>With customer's growing appetite for faster deliveries, Pointout Courier is the one platform that will help you power all your last-mile needs and delight your clients. Unleash the full potential of flexible, convenient and precise deliveries by partnering with us.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="service-card">
-                        <i class='bx bxs-truck'></i>
+                <div style="height:28em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-cart'></i>
                         <h3>E- COMMERCE</h3>
                         <p>Our couriers ensure a reduction in delivery failures and provide a more flexible and efficient service for some of the biggest names in e-commerce.</p>
                     </div>
@@ -61,29 +61,37 @@
 
                 
             </div>
-
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div style="height:42em;" class="service-card">
-                        <i class='bx bxs-truck'></i>
+            <br/>
+            <div class="row ">
+                <div style="height:42em;" class="card  col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-clinic'></i>
                         <h3>PHARMACEUTICAL  </h3>
                         <p>We provide a pharmacy to home delivery service, supporting pharmacy business delivering medicine to patients securely and cost effectively.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div style="height:42em;" class="service-card">
-                        <i class='bx bxs-truck'></i>
+                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-school'></i>
                         <h3> LEGAL & LAW FIRM</h3>
                         <p>When you need a legal document to be delivered our expert couriers are experienced in working with attorneys and paralegals. We’re familiar with legal regulations within the Nigeria and can collaborate with your business to ensure your document arrives safely and securely.  We understand that many legal documents are sensitive and confidential in nature. That’s why we assign one courier to carry out the whole delivery process, delivering from door to door to avoid complication and enable the most secure delivery.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div style="height:42em;" class="service-card">
-                        <i class='bx bxs-truck'></i>
-                        <h3>RESTURANT</h3>
+                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bx-restaurant'></i>
+                        <h3>RESTAURANT</h3>
                         <p>EatPoints is an innovative food delivery service  invented to deliver your favourite meal to you from restaurants within your vicinity at affordable rates and in the fastest time possible by a EatPoints partner.</p>
+                    </div>
+                </div>
+
+                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                    <div class="card-body service-card">
+                        <i class='bx bxs-bank'></i>
+                        <h3>BANKING AND FINANCE</h3>
+                        <p>Pointout Couriers’ experienced banking and finance couriers are equipped to deliver valuable and confidential financial documents. We understand the responsibility of delivering for the banking industry, and our couriers are specifically trained and vetted for the job.</p>
                     </div>
                 </div>
 

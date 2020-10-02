@@ -41,7 +41,13 @@
                     
                             <ul class="footer-text">
                                 <li>
-                                    <a href="/about">- Terms and conditions</a>
+                                    <a href="#">- Join Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">- Pricing</a>
+                                </li>
+                                <li>
+                                    <a href="/terms">- Terms and conditions</a>
                                 </li>
                                 <li>
                                     <a href="/about">- Payment Methods</a>
@@ -55,15 +61,19 @@
                         <div class="footer-widget pl-50">
                             <h3>DOWNLOAD APP</h3>
                     
-                            <ul class="footer-text">
+                            <ul class="" style="list-style:none; padding-left:0px;">
                                 <!-- <li>
                                     <a href="faq.html">FAQ’s</a>
                                 </li> -->
                                 <li>
-                                    <a href="#"> - Google play</a>
+                                    <a class="btn btn-google"  title="Google Play">Google Play</a>
                                 </li>
                                 <li>
-                                    <a href="#"> - Apple store</a>
+                                        <div class="download apple">
+                                        <i class="fa fa fa-apple fa-3x"></i>
+                                        <span class="df">Download from</span>
+                                        <span class="dfn">App Store</span>
+                                        </div>
                                 </li>
                                 
                               
@@ -93,11 +103,15 @@
                                     <a href="tel: +2348159015555"><i class='bx bxs-phone-call'></i> (+234) 815 901 5555</a><br/><a href="tel: +2349040002211"> (+234) 904 000 2211</a>
                                 </li>   
                             </ul><br/>
-                            <h3>Join Us</h3>
+                            <h3>Office Hours</h3>
                             <ul class="info-list">
-                                <li>
-                                    <i class='bx bxs-envelope'></i>
-                                    <a href="mailto:careers@pointoutcourier.com.ng">careers@pointoutcourier.com.ng</a>
+                                <li style="padding-left: 0px;">
+                                    Monday- Friday 8am-6pm
+                                </li>
+                            </ul>
+                            <ul class="info-list">
+                                <li style="padding-left: 0px;">
+                                    Saturday- Sunday 10am - 6pm
                                 </li>
                             </ul>
                         </div>

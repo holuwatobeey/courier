@@ -7,7 +7,7 @@
                 <div class="page-content">
                     <h2>Careers</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li>Careers</li>
                     </ul>
                 </div>

@@ -6,10 +6,10 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="page-content">
-                                <h2>Schedule A Delivery</h2>
+                                <h2>Request A Delivery</h2>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li>Schedule</li>
+                                    <li><a href="/">Home</a></li>
+                                    <li>Request A Delivery</li>
                                 </ul>
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                         margin-bottom: 15px;
                         color: #f21860;
                         line-height: 1;" class="text-center">Delivery Options</span>
-                        <h2 style="color:#301d44;" class="text-center">Cheap, Fast and Secured </h2>
+                        <h2 style="color:#301d44;" class="text-center">Speedy And Secured</h2>
                     </div>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 

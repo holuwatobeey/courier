@@ -145,8 +145,8 @@
                                     
                                 </li> --}}
                                 <li class="nav-item">
-                                    <a href="/schedule" class="nav-link">
-                                        Schedule A Delivery 
+                                    <a href="#" class="nav-link">
+                                        Request A Delivery 
                                     </a>
                                     
                                 </li>
@@ -156,7 +156,7 @@
                                
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact Us</a>
+                                    <a href="/contact-us" class="nav-link">Contact Us</a>
                                 </li>
 <!-- 
                                 <li class="nav-item">

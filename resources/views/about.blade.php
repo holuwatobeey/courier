@@ -8,7 +8,7 @@
                             <div class="page-content">
                                 <h2>About Us</h2>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li>About Us</li>
                                 </ul>
                             </div>

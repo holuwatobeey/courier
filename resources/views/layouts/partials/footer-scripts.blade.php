@@ -60,5 +60,4 @@
         <script src="{{asset('js/custom.js')}}"></script>
     </body>
 
-<!-- Mirrored from templates.hibootstrap.com/ferry/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 24 Sep 2020 16:30:44 GMT -->
 </html>

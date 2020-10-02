@@ -23,4 +23,5 @@ Route::get('/who-we-serve', 'PagesController@who')->name('who');
 Route::get('/schedule', 'PagesController@schedule')->name('schedule');
 Route::get('/careers', 'PagesController@careers')->name('careers');
 Route::get('/contact-us', 'PagesController@contact')->name('contact');
+Route::get('/terms', 'PagesController@terms')->name('terms');
 // Route::post('/contact-us', 'PagesController@contactFunc')->name('contactFunc');
