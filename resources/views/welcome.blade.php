@@ -12,7 +12,7 @@
                             <!-- <span>Since 1992</span> -->
                             <h1>DELIVERING ON TIME<br> EVERYTIME</h1>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                            <a href="#" class="default-btn-one mr-3">Contact Us</a>
+                            <a href="#" class="default-btn-one mr-3">CONTACT US</a>
                             <a href="#" class="default-btn-two">REQUEST A COURIER</a>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
 
     <!-- About Area --> 
     
-    <div class="about-area pb-100">
+    <div class="about-area pb-10">
         <div class="container">
             <div class="row">
 
@@ -175,7 +175,7 @@
     <!-- End Services Area -->
 
     <!-- Choose Area -->
-    <div style="animation-duration: 2s;" class="wow zoomIn choose-area">
+    <div style="animation-duration: 2s; background: #301d44; " class="wow zoomIn choose-area">
 
         <div class="shape-one">
             <img src="{{asset('img/shape/shape5.png')}}" alt="Shape">
@@ -184,13 +184,13 @@
              <div class="col-lg-12 col-md-12">
                     <div class="choose-text">
                         <div class="section-ttle">
+                            <h2 style="color:white; padding-top:2%" class="text-center">WHY POINTOUT COURIER</h2>
                             <span style="  font-size: 13px;
                             font-weight: 600;
                             display: block;
                             margin-bottom: 15px;
                             color: #f21860;
-                            line-height: 1;" class="text-center">What Makes Us Different?</span>
-                            <h2 style="color:#301d44;" class="text-center">We Deliver On Time, Every Time.</h2>
+                            line-height: 1;" class="text-center">We Deliver On Time, Every Time.</span>
                         </div>
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 
@@ -205,7 +205,7 @@
          
             <div class="row">
                     <div class="col-lg-3 col-sm-6">
-                        <div style="height:20em !important; k" class="service-card">
+                        <div style="height:20em !important;" class="service-card">
                                 <h3>Result Driven</h3>
                                 <p>Our team of professional personnel are not just effective but also result driven. They ensure every client’s satisfaction utilising our vast and integrated technologies which are fully deployed in our operations - so you can always know where you package is.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
@@ -242,12 +242,12 @@
     <div style="padding-bottom:10px; animation-duration: 2s;" class="wow fadeInUp speciality-area">
         <div class="container">
             <div class="section-title"><br/>
-                <span>OUR PROCESS</span>
-                <h2>Is Hassle-Free</h2>
+                <h2>OUR PROCESS</h2>
+                <span>Is Hassle-Free</span>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div style="height:24em !important;" class="service-card">
+                <div class="col-md-4 col-sm-6">
+                    <div style="height:27em !important;" class="service-card">
                         <i class='bx bxs-truck'></i>
                         <h3>COLLECTION</h3>
                         <p>Simply book when it best suits you and our couriers will pickup on demand . All you have to do is outline the package you need delivered and we’ll suggest the fastest, cheapest and most environmentally friendly option.</p>
@@ -255,16 +255,16 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div style="height:24em !important;" class="service-card">
+                <div class="col-md-4 col-sm-6">
+                    <div style="height:27em !important;" class="service-card">
                         <i class='bx bxs-truck'></i>
                         <h3>DROP OFF OPTION</h3>
                         <p>With no extra fee, you can drop the parcel with us.</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div style="height:24em !important;" class="service-card">
+                <div class="col-md-4 col-sm-6">
+                    <div style="height:27em !important;" class="service-card">
                         <i class='bx bxs-truck'></i>
                         <h3>WE DELIVER IT SECURELY</h3>
                         <p>Once your package is delivered you get a notification. And that is it!</p>
@@ -272,7 +272,8 @@
                     </div>
                 </div>
             </div>
-            <h4 class="text-center"><i>TRACKING - Total Transparency, More Control</i></h4><br/><br/>
+            {{-- <h4 class="text-center"><i>TRACKING - Total Transparency, More Control</i></h4> --}}
+            <br/><br/>
 
             <!-- Choose Area -->
 
@@ -314,7 +315,7 @@
         </div>
     </div>
     <!-- End Speciality Slider Area -->
-    <div style="background: #f5f5f5;" class="choose-area">
+    <div style="background: white;" class="choose-area">
 
         <div class="shape-one">
             <img src="{{asset('img/shape/shape5.png')}}" alt="Shape">
@@ -324,13 +325,13 @@
                     <div class="choose-text">
                         <div class="section-ttle">
                             <br/>
+                            <h2 style="color:#301d44;"  class="text-center">Delivery Options</h2>
                             <span style="  font-size: 13px;
                             font-weight: 600;
                             display: block;
                             margin-bottom: 15px;
                             color: #f21860;
-                            line-height: 1;" class="text-center">Delivery Options</span>
-                            <h2 style="color:#301d44;" class="text-center">Speedy And Secured</h2>
+                            line-height: 1;" class="text-center">Speedy And Secured</span>
                         </div>
                         <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
     

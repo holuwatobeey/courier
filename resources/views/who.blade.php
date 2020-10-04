@@ -6,10 +6,10 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="page-content">
-                                <h2>Our Services</h2>
+                                <h2>Services Portfolio</h2>
                                 <ul>
                                     <li><a href="/">Home</a></li>
-                                    <li>Who We Serve</li>
+                                    <li>Service Portfolio</li>
                                 </ul>
                             </div>
                         </div>
@@ -18,12 +18,12 @@
             </div>
             <!-- End Page banner Area -->
         <!-- Services Area -->
-     <div style="background:white;"class="services-area ptb-100">
+     <div style="background: white;" class="services-area ptb-100">
         <div class="container">
             <div class="section-title">
                 {{-- <span>What We Do</span> --}}
 
-                <h4 style="color:;">WHO WE SERVE</h4>
+                <h4 style="color:;">Service Portfolio</h4>
             </div>
 
             <div class="row">
@@ -39,7 +39,7 @@
                     <div class="card-body service-card">
                         <i class='bx bxs-user'></i>
                         <h3>INDIVIDUALS</h3>
-                        <p>For package deliveries within the city, Pointout is here to serve you. we provide a cost-effective, guaranteed same day or next day Domestic delivery service. Simple to book, uniquely priced, safe and speedily delivered to your doorstep.</p>
+                        <p>For package deliveries within the city, Pointout is here to serve you. we provide a cost-effective, guaranteed same day or next day delivery service. Simple to book, uniquely priced, safe, and speedily delivered to your doorstep.</p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@
                     <div class="card-body service-card">
                         <i class='bx bxs-truck'></i>
                         <h3>RETAIL</h3>
-                        <p>With customer's growing appetite for faster deliveries, Pointout Courier is the one platform that will help you power all your last-mile needs and delight your clients. Unleash the full potential of flexible, convenient and precise deliveries by partnering with us.</p>
+                        <p>With the advent of online shopping, the need to deliver direct to the customer is growing rapidly. The trick is to achieve this in a cost-effective manner whilst maintaining a high level of customer service. We have vast experience in this area.</p>
                     </div>
                 </div>
 
@@ -63,31 +63,31 @@
             </div>
             <br/>
             <div class="row ">
-                <div style="height:42em;" class="card  col-lg-3 col-sm-6">
+                <div style="height:30em;" class="card  col-lg-3 col-sm-6">
                     <div class="card-body service-card">
                         <i class='bx bxs-clinic'></i>
                         <h3>PHARMACEUTICAL  </h3>
-                        <p>We provide a pharmacy to home delivery service, supporting pharmacy business delivering medicine to patients securely and cost effectively.</p>
+                        <p>We provide a pharmacy to home delivery service, supporting pharmacy business delivering prescription to patients securely and cost-effectively.</p>
                     </div>
                 </div>
 
-                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                <div style="height:30em;" class="card col-lg-3 col-sm-6">
                     <div class="card-body service-card">
                         <i class='bx bxs-school'></i>
                         <h3> LEGAL & LAW FIRM</h3>
-                        <p>When you need a legal document to be delivered our expert couriers are experienced in working with attorneys and paralegals. We’re familiar with legal regulations within the Nigeria and can collaborate with your business to ensure your document arrives safely and securely.  We understand that many legal documents are sensitive and confidential in nature. That’s why we assign one courier to carry out the whole delivery process, delivering from door to door to avoid complication and enable the most secure delivery.</p>
+                        <p>Our expert couriers are experienced in working with attorneys and paralegals. We’re familiar with legal regulations and can collaborate with your business to ensure your document arrives safely and securely.</p>
                     </div>
                 </div>
 
-                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                <div style="height:30em;" class="card col-lg-3 col-sm-6">
                     <div class="card-body service-card">
                         <i class='bx bx-restaurant'></i>
                         <h3>RESTAURANT</h3>
-                        <p>EatPoints is an innovative food delivery service  invented to deliver your favourite meal to you from restaurants within your vicinity at affordable rates and in the fastest time possible by a EatPoints partner.</p>
+                        <p>EatPoints is an innovative food delivery service invented to deliver your favorite meal to you from restaurants within your vicinity at affordable rates and in the fastest time possible by an EatPoints partner.</p>
                     </div>
                 </div>
 
-                <div style="height:42em;" class="card col-lg-3 col-sm-6">
+                <div style="height:30em;" class="card col-lg-3 col-sm-6">
                     <div class="card-body service-card">
                         <i class='bx bxs-bank'></i>
                         <h3>BANKING AND FINANCE</h3>

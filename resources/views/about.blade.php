@@ -34,7 +34,7 @@
     
                 <p>Regardless of what your packing reads 'fragile' , our couriers will ensure that it is safe, secured and handled with care from the point of pick up right up until delivery.</p>
     
-                    <p>Therefore, Whenever you need a courier service. Call us to get it " Delivered</p>
+                    <p>Therefore, Whenever you need a courier service. Call us to get it "Delivered"</p>
                             </div>
     
                             
@@ -50,16 +50,16 @@
             <!-- End About Safe Area -->
             
             <!-- About Info -->
-            <div class="about-info-area pb-70">
+            <div style="padding-top:3%; background: #301d44;" class="about-info-area pb-70">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-6">
                             <div class="about-info-card">
-                                <h3>Our Mission</h3>
+                                <h3 style="color:white;">Our Mission</h3>
                                 <ul>
                                     <li>
                                         <i class='bx bx-check'></i>
-                                        To provide everyday delivery for individuals and businesses using innovation at affordable rates.
+                                        To become the world’s preferred logistics company for businesses and individuals - applying insight, service quality, and innovation to create sustainable growth businesses and satisfaction to individuals.
                                     </li>
                                     
                                 </ul>
@@ -68,8 +68,9 @@
     
                         <div class="col-lg-4 col-md-6">
                             <div class="about-info-card">
-                                <h3>Our Core Values</h3>
+                                <h3 style="color:white;">Our Core Values</h3>
                                 <ul>
+                                    <h5 style="color:white;">CONNECTED</h5>
                                     <li>
                                         <i class='bx bx-check'></i>
                                         We invest in insight to get the heart of our customers’ challenges.
@@ -78,6 +79,7 @@
                                         <i class='bx bx-check'></i>
                                         We are open and transparent in the way we work.
                                     </li>
+                                    <h5 style="color:white;">COMMITTED</h5>
                                     <li>
                                         <i class='bx bx-check'></i>
                                         Deeply involved in building relationships- everything we do is with the long-term in mind.
@@ -86,6 +88,7 @@
                                         <i class='bx bx-check'></i>
                                         Our dedication to quality is the cornerstone of our success- we get every detail right.
                                     </li>
+                                    <h5 style="color:white;">CONNECTED</h5>
                                     <li>
                                         <i class='bx bx-check'></i>
                                         We are constantly developing better ways of working.    
@@ -100,11 +103,11 @@
     
                         <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                             <div class="about-info-card">
-                                <h3>Our Vision</h3>
+                                <h3 style="color:white;">Our Vision</h3>
                                 <ul>
                                     <li>
                                         <i class='bx bx-check'></i>
-                                        Be The Best Courier Service Provider in Nigeria
+                                        Connecting people, businesses, and communities to a future - through logistics.
                                     </li>
                                     
                                 </ul>

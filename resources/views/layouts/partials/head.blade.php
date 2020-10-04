@@ -43,8 +43,9 @@
 
 
 .download {
-  width: 162px;
-  height: 75px;
+  width: 156px;
+  height: 45px;
+  margin-left:0.7%;
   background: black;
   float: left;
   border-radius: 5px;
@@ -65,16 +66,16 @@
 .df,
 .dfn {
   position: absolute;
-  left: 70px;
+  left: 55px;
 }
 
 .df {
-  top: 20px;
+  top: 7px;
   font-size: .68em;
 }
 
 .dfn {
-  top: 33px;
+  top: 20px;
   font-size: 1.08em;
 }
 

@@ -19,72 +19,14 @@
             <!-- End Page banner Area -->
 <!-- Choose Area -->
 
-<div class="choose-area">
 
-    <div class="shape-one">
-        <img src="{{asset('img/shape/shape5.png')}}" alt="Shape">
-    </div>
-    <div class="container">
-         <div class="col-lg-12 col-md-12">
-                <div class="choose-text">
-                    <div class="section-ttle">
-                        <span style="  font-size: 13px;
-                        font-weight: 600;
-                        display: block;
-                        margin-bottom: 15px;
-                        color: #f21860;
-                        line-height: 1;" class="text-center">Delivery Options</span>
-                        <h2 style="color:#301d44;" class="text-center">Speedy And Secured</h2>
-                    </div>
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> -->
-
-                    <!-- <a href="#" class="default-btn-one">Contact Us</a> -->
-                    <div class="shape-image">
-                        <img src="{{asset('img/shape/shape2.png')}}" alt="icon">
-                    </div>
-                </div>
-            </div><br/>
-        <div class="row justify-content-center">
-                <div style="height:182m !important;" class="col-md-4 choose-contant">
-                    <div style="padding-top:2%;" class="choose-card">
-                        <!-- <i class='bx bx-world'></i> -->
-                        <h3>Same Day Delivery </h3>
-                        <p>When it’s absolutely important it gets there today, we won’t be beaten on speed or efficiency. Just call us or use our online booking service.</p>
-                    </div>
-                </div>
-
-                <div style="height:12em !important;" class="col-md-4 choose-contant">
-                    <div style="padding-top:2%;" class="choose-card">
-                        <!-- <i class='bx bxs-paper-plane'></i> -->
-                        <h3>Next Day Delivery</h3>
-                        <p>Getting your parcel where it needs to be is our top priority and with our range of next day delivery services you can have it there even faster than you thought. </p>
-                    </div>
-                </div>
-
-                <div style="height:12em !important;" class="col-md-4 choose-contant">
-                    <div style="padding-top:2%;" class="choose-card">
-                        <!-- <i class='bx bxs-truck'></i> -->
-                        <h3>Premium Delivery</h3>
-                        <p>For urgent deliveries, when even Same Day Delivery isn’t fast enough, we are reliable and on point to assist  with your delivery.</p>
-                    </div>
-                </div>
-
-              
-
-           
-        </div>
-    </div>
-</div>
-<!-- End Choose Area -->
 
 <!-- Speciality Slider Area -->
-<div style="padding-bottom:10px; background:white;" class="speciality-area">
+<div style="padding-bottom:10px; background:#301d44;" class="speciality-area">
     <div class="container">
         <div class="section-title"><br/>
-            <span>SCHEDULE A DELIVERY</span>
-            <h2>More Opportunities, Less Hassle</h2>
+            <h2 style="color:white;">SCHEDULE A DELIVERY</h2>
+            <span>More Opportunities, Less Hassle</span>
         </div>
         <div class="row">
             <div class="col-lg-6 col-sm-6">
@@ -107,41 +49,243 @@
            
         </div>
 
-
-        <!-- <div class="speciality-slider owl-carousel owl-theme">
-            <div class="speciality-card">
-                <a href="#">
-                    <img src="{{asset('img/speciality/speciality1.jpg')}}" alt="image">
-                </a>
-                <div class="speciality-text">
-                    <h3>
-                        <a href="#">
-                            Office Relocation
-                        </a>
-                    </h3>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
-                </div>
-            </div>
-
-            <div class="speciality-card">
-                <a href="#">
-                    <img src="{{asset('img/speciality/speciality2.jpg')}}" alt="image">
-                </a>
-                <div class="speciality-text">
-                    <h3>
-                        <a href="#">
-                            House Moving
-                        </a>
-                    </h3>
-                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
-                </div>
-            </div>
-
-            
-
-           
-        </div> -->
     </div>
+</div>
+<br/>
+<div style="margin-bottom:2%;" class="col-md-10 offset-1">
+        <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a style="color:#f21860;" class="nav-link active" data-toggle="tab" href="#home">DROP-OFF</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color:#f21860;" class="nav-link" data-toggle="tab" href="#menu1">COLLECTION</a>
+                </li>
+                
+              </ul>
+              
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active container" id="home">
+                    <br/>
+                    <form>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Name</label>
+                        <input type="text" class="form-control" id="email" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div> 
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Phone Number</label>
+                        <input type="text" class="form-control" id="email" placeholder="Phone Number" name="phone" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Package Description</label>
+                        <textarea class="form-control" id="email" placeholder="Package Description" name="desc" required></textarea>
+                        </div><br/>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Package Value</label>
+                        <input type="text" class="form-control" id="email" placeholder="Package Monetary Value" name="pkg_value" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Package Size</label>
+                        <select class="form-control" name="pkg_size" id="" required>
+                            <option selected>Select package size</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="">Pick Up Date</label>
+                        <input type="date" class="form-control" id="email" placeholder="Name" name="date" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Pick Up Time</label>
+                        <input type="text" class="form-control" placeholder="Pick up time (E.g 9:00am - 10:00am)" name="time" required>
+                        </div> 
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Drop-Off Location</label>
+                        <select class="form-control" name="d_loc" id="" required>
+                            <option selected>Select Drop-Off Location</option>
+                            <option value="">Select Drop-Off Location...</option>
+                            <option value="Agege">Agege</option>
+                            <option value="Alimosho">Alimosho</option>
+                            <option value="Amuwo Odofin">Amuwo Odofin</option>
+                            <option value="Apapa">Apapa</option>
+                            <option value="Badagry">Badagry</option>
+                            <option value="Eti Osa">Eti Osa</option>
+                            <option value="Epe">Epe</option>
+                            <option value="Ibeju Lekki">Ibeju Lekki</option>
+                            <option value="Ifako-Ijaiye">Ifako-Ijaiye</option>
+                            <option value="Ikeja">Ikeja</option>
+                            <option value="Ikorodu">Ikorodu</option>
+                            <option value="Isheri">Isheri</option>
+                            <option value="Kosofe">Kosofe</option>
+                            <option value="Lagos Island">Lagos Island</option>
+                            <option value="Lagos Mainland">Lagos Mainland</option>
+                            <option value="Mushin">Mushin</option>
+                            <option value="Oshodi">Oshodi</option>
+                            <option value="Ojo">Ojo</option>
+                            <option value="Somolu">Somolu</option>
+                            <option value="Surulere">Surulere</option>
+                        </select>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Drop-Off Address</label>
+                        <input type="text" class="form-control" id="email" placeholder="Drop-Off Address" name="address" required>
+                        </div>
+                        <div class="col-md-12">
+                            <br/>
+                                <label for="">Delivery Option</label>
+                        <select class="form-control" name="dev_opt" id="" required>
+                            <option selected>Delivery Option</option>
+                            <option value="same">Same Day Delivery</option>
+                            <option value="next">Next Day Delivery</option>
+                            <option value="premium">Premium Delivery</option>
+                        </select>
+                        </div>
+                    </div><br/>
+                    <button type="submit" class="default-btn-one">Schedule</button>
+                    </form>
+                </div>
+                <div class="tab-pane container" id="menu1">
+                    <br/>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Name</label>
+                        <input type="text" class="form-control" id="email" placeholder="Name" name="name" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div> 
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Phone Number</label>
+                        <input type="text" class="form-control" id="email" placeholder="Phone Number" name="phone" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Package Description</label>
+                        <textarea class="form-control" id="email" placeholder="Package Description" name="desc" required></textarea>
+                        </div><br/>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Package Value</label>
+                        <input type="text" class="form-control" id="email" placeholder="Package Monetary Value" name="pkg_value" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Package Size</label>
+                        <select class="form-control" name="pkg_size" id="" required>
+                            <option selected>Select package size</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        </div>
+                    </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="">Pick Up Date</label>
+                        <input type="date" class="form-control" id="email" placeholder="Name" name="date" required>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Pick Up Time</label>
+                        <input type="text" class="form-control" placeholder="Pick up time (E.g 9:00am - 10:00am)" name="time" required>
+                        </div> 
+                    </div><br/>
+                    <div class="form-row">
+                            <div class="col-md-6">
+                                    <label for="">Pick-Up Location</label>
+                            <select class="form-control" name="p_loc" id="" required>
+                                <option selected>Select Pick-Up Location</option>
+                                <option value="Agege">Agege</option>
+                                <option value="Alimosho">Alimosho</option>
+                                <option value="Amuwo Odofin">Amuwo Odofin</option>
+                                <option value="Apapa">Apapa</option>
+                                <option value="Badagry">Badagry</option>
+                                <option value="Eti Osa">Eti Osa</option>
+                                <option value="Epe">Epe</option>
+                                <option value="Ibeju Lekki">Ibeju Lekki</option>
+                                <option value="Ifako-Ijaiye">Ifako-Ijaiye</option>
+                                <option value="Ikeja">Ikeja</option>
+                                <option value="Ikorodu">Ikorodu</option>
+                                <option value="Isheri">Isheri</option>
+                                <option value="Kosofe">Kosofe</option>
+                                <option value="Lagos Island">Lagos Island</option>
+                                <option value="Lagos Mainland">Lagos Mainland</option>
+                                <option value="Mushin">Mushin</option>
+                                <option value="Oshodi">Oshodi</option>
+                                <option value="Ojo">Ojo</option>
+                                <option value="Somolu">Somolu</option>
+                                <option value="Surulere">Surulere</option>
+                            </select>
+                            </div>
+                            <div class="col-md-6">
+                                    <label for="">Pick-Up Address</label>
+                            <input type="text" class="form-control" id="email" placeholder="Pick-Up Address" name="p_address" required>
+                            </div>
+                            
+                        </div><br/>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                                <label for="">Drop-Off Location</label>
+                        <select class="form-control" name="d_loc" id="" required>
+                            <option selected>Select Drop-Off Location</option>
+                            <option value="Agege">Agege</option>
+                            <option value="Alimosho">Alimosho</option>
+                            <option value="Amuwo Odofin">Amuwo Odofin</option>
+                            <option value="Apapa">Apapa</option>
+                            <option value="Badagry">Badagry</option>
+                            <option value="Eti Osa">Eti Osa</option>
+                            <option value="Epe">Epe</option>
+                            <option value="Ibeju Lekki">Ibeju Lekki</option>
+                            <option value="Ifako-Ijaiye">Ifako-Ijaiye</option>
+                            <option value="Ikeja">Ikeja</option>
+                            <option value="Ikorodu">Ikorodu</option>
+                            <option value="Isheri">Isheri</option>
+                            <option value="Kosofe">Kosofe</option>
+                            <option value="Lagos Island">Lagos Island</option>
+                            <option value="Lagos Mainland">Lagos Mainland</option>
+                            <option value="Mushin">Mushin</option>
+                            <option value="Oshodi">Oshodi</option>
+                            <option value="Ojo">Ojo</option>
+                            <option value="Somolu">Somolu</option>
+                            <option value="Surulere">Surulere</option>
+                        </select>
+                        </div>
+                        <div class="col-md-6">
+                                <label for="">Drop-Off Address</label>
+                        <input type="text" class="form-control" id="email" placeholder="Drop-Off Address" name="address" required>
+                        </div>
+                        <div class="col-md-12">
+                            <br/>
+                                <label for="">Delivery Option</label>
+                        <select class="form-control" name="dev_opt" id="" required>
+                            <option selected>Delivery Option</option>
+                            <option value="same">Same Day Delivery</option>
+                            <option value="next">Next Day Delivery</option>
+                            <option value="premium">Premium Delivery</option>
+                        </select>
+                        </div>
+                    </div><br/>
+                    <button type="submit" class="default-btn-one">Schedule</button>
+                    </form>
+                </div>
+              </div>
 </div>
 
 @endsection

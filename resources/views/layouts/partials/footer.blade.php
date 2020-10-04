@@ -3,7 +3,7 @@
         <footer class="footer-area pt-100 pb-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+                    {{-- <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
                             <div class="logo">
                                 <img style="height:50px !important;" src="{{asset('img/logo.png')}}" alt="logo">
@@ -33,11 +33,11 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget pl-80">
-                            <h3>The Company</h3>
+                            <h3>Company</h3>
                     
                             <ul class="footer-text">
                                 <li>
@@ -57,7 +57,7 @@
                     </div>
                     
 
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget pl-50">
                             <h3>DOWNLOAD APP</h3>
                     
@@ -69,11 +69,13 @@
                                     <a class="btn btn-google"  title="Google Play">Google Play</a>
                                 </li>
                                 <li>
+                                    <a title="App Store">
                                         <div class="download apple">
-                                        <i class="fa fa fa-apple fa-3x"></i>
+                                        <i class="fa fa fa-apple fa-2x"></i>
                                         <span class="df">Download from</span>
                                         <span class="dfn">App Store</span>
                                         </div>
+                                    </a>
                                 </li>
                                 
                               
@@ -81,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="footer-widget">
                             <h3>CONTACT US</h3>
                             <ul class="info-list">

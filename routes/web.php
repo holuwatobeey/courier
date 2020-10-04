@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about', 'PagesController@about')->name('about');
-Route::get('/who-we-serve', 'PagesController@who')->name('who');
+Route::get('/services-portfolio', 'PagesController@who')->name('who');
 Route::get('/schedule', 'PagesController@schedule')->name('schedule');
 Route::get('/careers', 'PagesController@careers')->name('careers');
 Route::get('/contact-us', 'PagesController@contact')->name('contact');

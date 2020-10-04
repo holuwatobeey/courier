@@ -99,7 +99,7 @@
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <a href="/about" class="nav-link">The Company</a>
+                                            <a href="/about" class="nav-link">Company</a>
                                         </li>
 
                                         <li class="nav-item">
@@ -133,8 +133,8 @@
                                 </li> -->
 
                                 <li class="nav-item">
-                                    <a href="/who-we-serve" class="nav-link">
-                                        Who We Serve 
+                                    <a href="/services-portfolio" class="nav-link">
+                                        Services Portfolio 
                                     </a>
                                     
                                 </li>
@@ -145,7 +145,7 @@
                                     
                                 </li> --}}
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a href="/schedule" class="nav-link">
                                         Request A Delivery 
                                     </a>
                                     
