@@ -70,13 +70,13 @@
                                 </li>
                                 <li>
                                     <a title="App Store">
-                                        <div style="margin-left:0.7%;" class="download apple">
+                                        <div class="download apple">
                                         <i class="fa fa fa-apple fa-2x"></i>
                                         <span class="df">Download from</span>
                                         <span class="dfn">App Store</span>
                                         </div>
-                                    </a>
-                                </li>
+                                    </a><br/>
+                                </li><br/>
                                 
                               
                             </ul>

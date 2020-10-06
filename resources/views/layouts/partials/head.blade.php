@@ -45,7 +45,7 @@
 .download {
   width: 156px;
   height: 45px;
-  margin-left:0.7%;
+  margin-left:0.8%;
   background: black;
   float: left;
   border-radius: 5px;
