@@ -43,7 +43,7 @@
 
 
 .download {
-  width: 157.9px;
+  width: 158px;
   height: 45px;
   margin-left:0.8%;
   background: black;
