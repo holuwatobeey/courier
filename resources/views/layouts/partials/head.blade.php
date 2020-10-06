@@ -43,12 +43,12 @@
 
 
 .download {
-  width: 157.8px;
+  width: 157.9px;
   height: 45px;
   margin-left:0.8%;
   background: black;
   float: left;
-  border-radius: 5px;
+  border-radius: 6px;
   position: relative;
   color: #fff;
   cursor: pointer;
