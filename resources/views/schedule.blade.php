@@ -30,7 +30,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-sm-6">
-                <div style="height:24em !important;" class="service-card">
+                <div style="height:30em !important;" class="service-card">
                     <i class='bx bxs-truck'></i>
                     <h3>COLLECTION</h3>
                     <p>Simply book when it best suits you and our couriers will pickup on demand . All you have to do is outline the package you need delivered and we’ll suggest the fastest, cheapest and most environmentally friendly option.</p>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-lg-6 col-sm-6">
-                <div style="height:24em !important;" class="service-card">
+                <div style="height:30em !important;" class="service-card">
                     <i class='fa fa-car'></i>
                     <h3>DROP OFF OPTION</h3>
                     <p>With no extra fee, you can drop the parcel with us.</p>
