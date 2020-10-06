@@ -20,7 +20,7 @@
         <!-- Animate CSS -->
         {{-- <link rel="stylesheet" href="{{ asset('css/animate.min.css')}}"> --}}
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
         <!-- Stylesheet CSS -->
         <link rel="stylesheet" href="{{ asset('css/style.css')}}">
         <!-- Stylesheet Responsive CSS -->

@@ -21,6 +21,8 @@
             <!-- About Safe Area -->
             <div class="about-text-area ptb-100">
                 <div class="container">
+                        <h3>AT POINTOUT COURIER</h3>
+
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="about-safe-text">
@@ -53,7 +55,7 @@
             <div style="padding-top:3%; background: #301d44;" class="about-info-area pb-70">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="about-info-card">
                                 <h3 style="color:white;">Our Mission</h3>
                                 <ul>
@@ -66,42 +68,9 @@
                             </div>
                         </div>
     
-                        <div class="col-lg-4 col-md-6">
-                            <div class="about-info-card">
-                                <h3 style="color:white;">Our Core Values</h3>
-                                <ul>
-                                    <h5 style="color:white;">CONNECTED</h5>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        We invest in insight to get the heart of our customers’ challenges.
-                                    </li>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        We are open and transparent in the way we work.
-                                    </li>
-                                    <h5 style="color:white;">COMMITTED</h5>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        Deeply involved in building relationships- everything we do is with the long-term in mind.
-                                    </li>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        Our dedication to quality is the cornerstone of our success- we get every detail right.
-                                    </li>
-                                    <h5 style="color:white;">CONNECTED</h5>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        We are constantly developing better ways of working.    
-                                    </li>
-                                    <li>
-                                        <i class='bx bx-check'></i>
-                                        If we find a better way of working we act upon it and proactively share it.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+
     
-                        <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                        <div class="col-lg-6 col-md-6">
                             <div class="about-info-card">
                                 <h3 style="color:white;">Our Vision</h3>
                                 <ul>
@@ -113,8 +82,43 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="col-lg-12 col-md-6">
+                                <div class="about-info-card">
+                                    <h3 style="color:white;">Our Core Values</h3>
+                                    <ul>
+                                        <h5 style="color:white;">CONNECTED</h5>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            We invest in insight to get the heart of our customers’ challenges.
+                                        </li>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            We are open and transparent in the way we work.
+                                        </li>
+                                        <h5 style="color:white;">COMMITTED</h5>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            Deeply involved in building relationships- everything we do is with the long-term in mind.
+                                        </li>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            Our dedication to quality is the cornerstone of our success- we get every detail right.
+                                        </li>
+                                        <h5 style="color:white;">CONNECTED</h5>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            We are constantly developing better ways of working.    
+                                        </li>
+                                        <li>
+                                            <i class='bx bx-check'></i>
+                                            If we find a better way of working we act upon it and proactively share it.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                     </div>
                 </div>
+                
             </div>
             <!-- End About Info -->
 @endsection

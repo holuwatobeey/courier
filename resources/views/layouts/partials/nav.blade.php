@@ -20,7 +20,7 @@
                             <li>
                                     
                                    
-                                    <a href="tel: +2348159015555"><i class='bx bxs-phone-call'></i> (+234) 815 901 5555 </a>  <a href="tel: +2349075555000"> <i class="fa fa-whatsapp" style="font-size:17px"></i>(+234) 907 555 5000</a>   
+                                    <a href="tel: +2348159015555"><i class='bx bxs-phone-call'></i> (+234) 815 901 5555 </a>  <a href="tel: +2349075555000"> &nbsp;&nbsp; <i class="fa fa-whatsapp" style="font-size:17px"></i>(+234) 907 555 5000</a>   
                             </li>
                         </ul>
                     </div>
@@ -95,7 +95,7 @@
                             
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
-                                        The Company  <i class='bx bx-chevron-down'></i>
+                                        Company  <i class='bx bx-chevron-down'></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">

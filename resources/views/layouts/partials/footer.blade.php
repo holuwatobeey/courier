@@ -70,7 +70,7 @@
                                 </li>
                                 <li>
                                     <a title="App Store">
-                                        <div class="download apple">
+                                        <div style="margin-left:0.7%;" class="download apple">
                                         <i class="fa fa fa-apple fa-2x"></i>
                                         <span class="df">Download from</span>
                                         <span class="dfn">App Store</span>
@@ -102,7 +102,7 @@
                                     <a href="tel: +2349075555000"> (+234) 907 555 5000</a>
                                 </li>
                                 <li>
-                                    <a href="tel: +2348159015555"><i class='bx bxs-phone-call'></i> (+234) 815 901 5555</a><br/><a href="tel: +2349040002211"> (+234) 904 000 2211</a>
+                                   <i class='bx bxs-phone-call'></i><a href="tel: +2349040002211"> (+234) 904 000 2211</a>
                                 </li>   
                             </ul><br/>
                             <h3>Office Hours</h3>

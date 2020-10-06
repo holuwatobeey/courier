@@ -82,15 +82,15 @@
 
     <!-- About Area --> 
     
-    <div class="about-area pb-10">
+    <div class="about-area pb-100">
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-7 wow fadeInLeft slower">
+                <div class="col-lg-12 wow fadeInLeft slower">
                     <div style="" class="about-contant">
                         <div class="section-title">
                             <!-- <span>About Us</span> -->
-                            <h2>POINTOUT COURIER</h2>
+                            <h2>AT POINTOUT COURIER</h2>
                         </div>
 
                         <div class="about-text">
@@ -103,11 +103,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 wow bounceInDown delay-1s slower">
+                {{-- <div class="col-lg-4 wow bounceInDown delay-1s slower">
                     <div class="about-image">
                         <img src="{{asset('img/about/about1.png')}}" alt="about-image">
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- <div class="col-lg-3">
                     
@@ -257,7 +257,7 @@
 
                 <div class="col-md-4 col-sm-6">
                     <div style="height:27em !important;" class="service-card">
-                        <i class='bx bxs-truck'></i>
+                        <i class='fa fa-car'></i>
                         <h3>DROP OFF OPTION</h3>
                         <p>With no extra fee, you can drop the parcel with us.</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
@@ -265,7 +265,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div style="height:27em !important;" class="service-card">
-                        <i class='bx bxs-truck'></i>
+                        <i class="fa fa-lock"></i>
                         <h3>WE DELIVER IT SECURELY</h3>
                         <p>Once your package is delivered you get a notification. And that is it!</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
