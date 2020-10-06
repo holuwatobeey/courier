@@ -12,7 +12,7 @@
                             <!-- <span>Since 1992</span> -->
                             <h1>DELIVERING ON TIME<br> EVERYTIME</h1>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                            <a href="#" class="default-btn-one mr-3">CONTACT US</a>
+                            <a href="#" class="default-btn-one mr-3">GET IN TOUCH</a>
                             <a href="#" class="default-btn-two">REQUEST A COURIER</a>
                         </div>
                     </div>

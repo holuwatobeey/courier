@@ -156,7 +156,7 @@
                                
 
                                 <li class="nav-item">
-                                    <a href="/contact-us" class="nav-link">Contact Us</a>
+                                    <a href="/contact-us" class="nav-link">Get In Touch</a>
                                 </li>
 <!-- 
                                 <li class="nav-item">
