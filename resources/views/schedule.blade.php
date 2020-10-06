@@ -107,7 +107,7 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <label for="">Pick Up Date</label>
-                        <input type="date" class="form-control" id="email" placeholder="Name" name="date" required><br/>
+                        <input type="date" class="form-control" id="email" name="date" required><br/>
                         </div><br/>
                         <div class="col-md-6">
                                 <label for="">Pick Up Time</label>
@@ -200,7 +200,7 @@
                     <div class="form-row">
                         <div class="col-md-6">
                             <label for="">Pick Up Date</label>
-                        <input type="date" class="form-control" id="email" placeholder="Name" name="date" required><br/>
+                        <input type="date" class="form-control" id="email" name="date" required><br/>
                         </div>
                         <div class="col-md-6">
                                 <label for="">Pick Up Time</label>
