@@ -39,12 +39,14 @@
                 <input type="number" class="form-control" >
               </div>
               <div class="form-group">
-                <label for="last">Select Position:</label>
-                <select class="form-control" id="" required>
+                <label for="last">Position:</label>
+                <input type="text" class="form-control" >
+                {{-- <select class="form-control" id="" required>
                     <option selected>Select Position</option>
                     <option value="small">...</option>
                     
-                </select>
+                </select> --}}
+
               </div>
               <div class="form-group">
                 <label for="date">Available Date:</label>
