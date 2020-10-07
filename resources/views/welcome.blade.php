@@ -206,29 +206,29 @@
             <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div style="height:20em !important;" class="service-card">
-                                <h3>Result Driven</h3>
-                                <p>Our team of professional personnel are not just effective but also result driven. They ensure every client’s satisfaction utilising our vast and integrated technologies which are fully deployed in our operations - so you can always know where you package is.</p>
+                                <h3>RESULT DRIVEN</h3>
+                                <p>Our team of professional personnel are not just effective but also result-driven with a tireless commitment to providing a seamless process from booking to delivery.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
                     </div>
     
                     <div class="col-lg-3 col-sm-6">
                         <div style="height:20em !important;" class="service-card">
-                                <h3>Business Or Personal</h3>
+                                <h3>BUSINESS OR PERSONAL</h3>
                                 <p>Whether you need a one off delivery or a long term delivery partner for your business,charity or individual needs we've got you covered !</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div style="height:20em !important;" class="service-card">
-                                <h3>Rated Couriers</h3>
+                                <h3>RATED COURIERS</h3>
                                 <p>Individually reviewed by our team and rated by customers, you can expect a reliable, punctual and polite service.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div style="height:20em !important;" class="service-card">
-                                <h3>Exclusive Pricing </h3>
+                                <h3>EXCLUSIVE PRICING </h3>
                                 <p>By partnering with us you'll receive exclusive business rates, plus quick booking access via our online booking platform.</p>
                                      <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>

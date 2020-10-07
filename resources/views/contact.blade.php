@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
-                        <div class="contact-info">
+                        <div  style="height:18em !important;" class="contact-info">
                             <i class='bx bxs-phone'></i>
                             <h4>Contact Number</h4>
                            <p>
@@ -53,7 +53,7 @@
                     </div>
     
                     <div class="col-lg-4 col-md-6">
-                        <div class="contact-info">
+                        <div  style="height:18em !important;"  class="contact-info">
                             <i class='bx bxs-location-plus'></i>
                             <h4>Our Location</h4>
                             <p>Somewhere In Lagos</p>
@@ -62,7 +62,7 @@
                     </div>
     
                     <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                        <div class="contact-info">
+                        <div  style="height:18em !important;"  class="contact-info">
                             <i class='bx bxs-envelope'></i>
                             <h4>Email Address</h4>
                             <p><a href="mailto:delivery@pointoutcourier.com.ng">delivery@pointoutcourier.com.ng</a></p>
@@ -74,11 +74,12 @@
         <!-- End Conatct Info -->
 
         <!-- Contact Area -->
-        <div class="contact-form-area pb-100">
+        <div style="background: #301d44;" class="contact-form-area pt-100 pb-100">
             <div class="container">
                 <div class="section-title">
+                    <h2 style="color:white">Get in Touch</h2>
                     <span>Contact Us</span>
-                    <h2>Get in Touch</h2>
+                   
                 </div>
 
                 <div class="contact-form">
