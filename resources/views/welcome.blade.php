@@ -86,7 +86,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-12 wow fadeInLeft slower">
+                <div class="col-lg-6 wow fadeInLeft slower">
                     <div style="" class="about-contant">
                         <div class="section-title">
                             <!-- <span>About Us</span> -->
@@ -103,15 +103,15 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-lg-4 wow bounceInDown delay-1s slower">
+                <div class="col-lg-6 wow bounceInDown delay-1s slower">
                     <div class="about-image">
-                        <img src="{{asset('img/about/about1.png')}}" alt="about-image">
+                        <img src="{{asset('img/hero-slider/cou3.jpg')}}" alt="about-image">
                     </div>
-                </div> --}}
+                </div>
 
-                <!-- <div class="col-lg-3">
+                {{-- <div class="col-lg-3">
                     
-                </div> -->
+                </div> --}}
             </div>
         </div>
     </div>
@@ -225,7 +225,7 @@
                                 <p>Individually reviewed by our team and rated by customers, you can expect a reliable, punctual and polite service.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
-                    </div>
+                    </div> 
                     <div class="col-lg-3 col-sm-6">
                         <div style="height:20em !important;" class="service-card">
                                 <h3>EXCLUSIVE PRICING </h3>
