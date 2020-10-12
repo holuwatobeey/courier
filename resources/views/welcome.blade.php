@@ -61,7 +61,7 @@
             <div class="contact-content">
                 <div class="row">
                     <div class="col-md-12">
-                            <h2 align="center" style="color:white">Enter Your Tracking Number</h2><br/>
+                            <h2 align="center" style="color:white">TRACK A DELIVERY</h2><br/>
                             
                             <form>
                             <div class="input-group">
@@ -242,32 +242,40 @@
     <div style="padding-bottom:10px; animation-duration: 2s;" class="wow fadeInUp speciality-area">
         <div class="container">
             <div class="section-title"><br/>
-                <h2>OUR PROCESS</h2>
-                <span>Is Hassle-Free</span>
+                <h2>HOW IT WORKS</h2>
+                <span>Easily and Quicker</span>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div style="height:27em !important;" class="service-card">
                         <i class='bx bxs-truck'></i>
-                        <h3>COLLECTION</h3>
-                        <p>Simply book when it best suits you and our couriers will pickup on demand . All you have to do is outline the package you need delivered and we’ll suggest the fastest, cheapest and most environmentally friendly option.</p>
+                        <h3>PICK UP</h3>
+                        <p>Simply book when it best suits you and our couriers will pick up on demand. All you have to do is outline the package you need to be delivered and we’ll suggest the fastest, cheapest, and most environmentally friendly option.</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div style="height:27em !important;" class="service-card">
                         <i class='fa fa-car'></i>
-                        <h3>DROP OFF OPTION</h3>
-                        <p>With no extra fee, you can drop the parcel with us.</p>
+                        <h3>DROP OFF</h3>
+                        <p>Alternatively, you can benefit from a reduced price by dropping your parcel for delivery at our pick-up center; located at 63 Egbeda Idimu Road Egbeda, Lagos, Nigeria.</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-3 col-sm-6">
                     <div style="height:27em !important;" class="service-card">
-                        <i class="fa fa-lock"></i>
-                        <h3>WE DELIVER IT SECURELY</h3>
-                        <p>Once your package is delivered you get a notification. And that is it!</p>
+                        <i class="fa fa-map-marker"></i>
+                        <h3>DELIVERY TRACKING</h3>
+                        <p>We'll provide you with a tracking code to allow you to keep up to date with the status of your delivery</p>
+                        <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div style="height:27em !important;" class="service-card">
+                        <i class="fa fa-bell"></i>
+                        <h3>WE DELIVER!</h3>
+                        <p>Once your package is delivered you get a notification, And that is it!</p>
                         <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                     </div>
                 </div>
@@ -278,40 +286,59 @@
             <!-- Choose Area -->
 
 
-
-            <!-- <div class="speciality-slider owl-carousel owl-theme">
+            <div class="section-title"><br/>
+                <h2>WHAT WE DO</h2>
+                {{-- <span>Easily and Quicker</span> --}}
+            </div>
+            <div class="speciality-slider owl-carousel owl-theme">
+                
                 <div class="speciality-card">
                     <a href="#">
-                        <img src="{{asset('img/speciality/speciality1.jpg')}}" alt="image">
+                        <img height="320" src="https://images.pexels.com/photos/3434533/pexels-photo-3434533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
                     </a>
                     <div class="speciality-text">
                         <h3>
                             <a href="#">
-                                Office Relocation
+                                BULK DELIVERY
                             </a>
                         </h3>
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
+                        <p>Whether you are an eCommerce start-up business, online merchant, wholesaler, or a leading online brand. With regular convenient collection times, we deliver to your customers’ doorstep without any delay.</p>
                     </div>
                 </div>
 
                 <div class="speciality-card">
                     <a href="#">
-                        <img src="{{asset('img/speciality/speciality2.jpg')}}" alt="image">
+                        <img height="320" src="{{asset('img/hero-slider/cou4.jpg')}}" alt="image">
                     </a>
                     <div class="speciality-text">
                         <h3>
                             <a href="#">
-                                House Moving
+                               OPTIONAL DELIVERY
                             </a>
                         </h3>
-                        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.</p>
+                        <p>Our top notch same-day delivery, next day delivery, and premium delivery services ensure your package will be in the right place at the right time. And guess what? No delays; No excuses.</p>
+                    </div>
+                </div>
+
+                
+                <div class="speciality-card">
+                    <a href="#">
+                        <img height="320" src="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+                    </a>
+                    <div class="speciality-text">
+                        <h3>
+                            <a href="#">
+                               PARTNERSHIP
+                            </a>
+                        </h3>
+                        <p>Our valued-added partnership service gives businesses the edge over competitors and assists in delivering customers orders. But that’s just not enough. You need peace of mind and we can offer it.</p>
                     </div>
                 </div>
 
                 
 
                
-            </div> -->
+            </div>
         </div>
     </div>
     <!-- End Speciality Slider Area -->

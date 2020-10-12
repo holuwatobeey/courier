@@ -99,7 +99,7 @@
                                 <li>
                                     <i class='bx bxs-whatsapp'></i>
                                     <i class="fa fa-whatsapp" style="font-size:20px"></i>
-                                    <a href="tel: +2349075555000"> (+234) 907 555 5000</a>
+                                    <a href="tel: +2349075555000"> (+234) 815 901 5555</a>
                                 </li>
                                 <li>
                                    <i class='bx bxs-phone-call'></i><a href="tel: +2349040002211"> (+234) 904 000 2211</a>

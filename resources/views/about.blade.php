@@ -86,33 +86,41 @@
                                 <div class="about-info-card">
                                     <h3 style="color:white;">Our Core Values</h3>
                                     <ul>
-                                        <h5 style="color:white;">CONNECTED</h5>
+                                        <h5 style="color:white;">EXCELLENCE</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            We invest in insight to get the heart of our customers’ challenges.
+                                            Excellence is one of our core values, and we always take the time to celebrate this. We like to celebrate the big and the small.
                                         </li>
+                                        
+                                        <h5 style="color:white;">RESULTS DRIVEN</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            We are open and transparent in the way we work.
+                                            We work with exceptional people who do exceptional things.
                                         </li>
-                                        <h5 style="color:white;">COMMITTED</h5>
+                                       
+                                        <h5 style="color:white;">CUSTOMER CENTRIC</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            Deeply involved in building relationships- everything we do is with the long-term in mind.
+                                            We strive to understand our customers and give them the best.   
                                         </li>
+                                        <h5 style="color:white;">GROW</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            Our dedication to quality is the cornerstone of our success- we get every detail right.
+                                            We hire awesome people. You can move sideways, you can move up, and there are always new opportunities to learn.
                                         </li>
-                                        <h5 style="color:white;">CONNECTED</h5>
+                                        
+                                        <h5 style="color:white;">WIN-WIN-WIN</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            We are constantly developing better ways of working.    
+                                            We ensure that each of our actions is in the best interests of our team, our company, and our customers.
                                         </li>
+                                       
+                                        <h5 style="color:white;">EQUALITY</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
-                                            If we find a better way of working we act upon it and proactively share it.
+                                            We respect and value people of all backgrounds. Together, we create a more equal workplace and world.  
                                         </li>
+                                       
                                     </ul>
                                 </div>
                             </div>

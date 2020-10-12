@@ -28,6 +28,10 @@
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="{{ asset('img/favicon.png')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADAn9X5XMUshOILZm7byQ9kFLfdM9mYMk"></script>    
+        <!-- <script src="http://maps.google.com/maps/api/js?sensor=false" 
+              type="text/javascript"></script> -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <style>
             a.btn-google{color:#fff}
 .btn{padding:10px 16px;margin:5px;font-size:18px;line-height:1.3333333;border-radius:6px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;font-weight:500;text-decoration:none;display:inline-block}
@@ -40,7 +44,9 @@
 .btn-google:before{content:"";background-image:url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);background-size:cover;background-repeat:no-repeat;width:30px;height:30px;position:absolute;left:6px;top:50%;margin-top:-15px}
 .btn-google:after{content:"GET IT ON";position:absolute;top:5px;left:40px;font-size:10px;font-weight:400;}
 
-
+.nav-item{
+    text-transform: uppercase;
+}
 
 .download {
   width: 158px;
@@ -82,7 +88,11 @@
 .download:hover {
     color:#fff;background-color:#555;border-color:#000;
 }
+.proceed{
+  visibility: hidden;
+}
         </style>
+         
         <!-- Title -->
         <title>POINTOUT COURIER</title>
 

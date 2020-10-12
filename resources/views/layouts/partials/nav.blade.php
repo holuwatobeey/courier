@@ -20,7 +20,7 @@
                             <li>
                                     
                                    
-                                    <a href="tel: +2348159015555"><i class='bx bxs-phone-call'></i> (+234) 815 901 5555 </a>  <a href="tel: +2349075555000"> &nbsp;&nbsp; <i class="fa fa-whatsapp" style="font-size:17px"></i>(+234) 907 555 5000</a>   
+                                    <a href="tel: +2349040002211"><i class='bx bxs-phone-call'></i> (+234) 904 000 2211 </a>  <a href="tel: +2349075555000"> &nbsp;&nbsp; <i class="fa fa-whatsapp" style="font-size:17px"></i>(+234) 907 555 5000</a>   
                             </li>
                         </ul>
                     </div>
@@ -158,6 +158,38 @@
                                 <li class="nav-item">
                                     <a href="/contact-us" class="nav-link">Get In Touch</a>
                                 </li>
+
+
+                                @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                {{ Auth::user()->username }}   <i class='bx bx-chevron-down'></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                          
+                        @endguest
 <!-- 
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">Sign Up</a>

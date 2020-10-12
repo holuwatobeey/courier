@@ -8,7 +8,9 @@
 @include('layouts.partials.head')
 <body>
     @include('layouts.partials.nav')
+
     @yield('content')
+    @yield('scripts')
     @include('layouts.partials.footer')
     @include('layouts.partials.footer-scripts')
 </body>

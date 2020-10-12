@@ -15,13 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Auth::routes();
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/services-portfolio', 'PagesController@who')->name('who');
 Route::get('/schedule', 'PagesController@schedule')->name('schedule');
+// Route::post('/schedule', 'ScheduleController@schedule')->name('schedule');
+Route::post('/schedule', 'ScheduleController@redirectToGateway')->name('pay');
+Route::get('/payment/callback', 'ScheduleController@callback')->name('callback');
 Route::get('/careers', 'PagesController@careers')->name('careers');
 Route::get('/contact-us', 'PagesController@contact')->name('contact');
+Route::post('/contact-us', 'PagesController@saveContact');
 Route::get('/terms', 'PagesController@terms')->name('terms');
 // Route::post('/contact-us', 'PagesController@contactFunc')->name('contactFunc');

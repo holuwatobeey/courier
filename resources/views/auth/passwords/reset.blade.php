@@ -1,11 +1,26 @@
-@extends('layouts.app')
+@extends('layouts.mainLayout')
 
 @section('content')
-<div class="container">
+<div class="page-banner bg-3">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container">
+                <div class="page-content">
+                    <h2>Reset Password</h2>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li>Reset Password</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container ptb-100">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+                <div style="background:white !important;" class="card-header">{{ __('Reset Password') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('password.update') }}">

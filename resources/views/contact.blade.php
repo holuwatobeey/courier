@@ -56,8 +56,12 @@
                         <div  style="height:18em !important;"  class="contact-info">
                             <i class='bx bxs-location-plus'></i>
                             <h4>Our Location</h4>
-                            <p>Somewhere In Lagos</p>
-                            <p>Nigeria</p>
+                           <p> Primal Tek Plaza 
+                            1st Floor, Block A, Suite 29, </p>
+                            <p>63 Egbeda Idimu Road,</p>
+                            <p>Egbeda - Lagos.</p>
+
+                          
                         </div>
                     </div>
     
@@ -72,10 +76,18 @@
             </div>
         </div>
         <!-- End Conatct Info -->
-
+        <div class="col-md-12">
+            @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+        </div>
         <!-- Contact Area -->
         <div style="background: #301d44;" class="contact-form-area pt-100 pb-100">
             <div class="container">
+                
+               
                 <div class="section-title">
                     <h2 style="color:white">Get in Touch</h2>
                     <span>Contact Us</span>
@@ -83,46 +95,66 @@
                 </div>
 
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form action="/contact-us" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="Your name">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="name" class="form-control {{ $errors->has('name') ? ' has-error' : '' }}"  required placeholder="Your name">
+                                    @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong style="color:red;">{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="Your email address">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="email" name="email" class="form-control {{ $errors->has('email') ? ' has-error' : '' }}" required  placeholder="Your email address">
+                                    @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong style="color:red;">{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject" placeholder="Your Subject">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="msg_subject" class="form-control {{ $errors->has('msg_subject') ? ' has-error' : '' }}" required placeholder="Your Subject">
+                                    @if ($errors->has('msg_subject'))
+                                    <span class="help-block">
+                                        <strong style="color:red;">{{ $errors->first('msg_subject') }}</strong>
+                                    </span>
+                                @endif
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" class="form-control" id="phone_number" required data-error="Please enter your phone number" placeholder="Your phone number">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" name="phone_number" class="form-control {{ $errors->has('phone') ? ' has-error' : '' }}"  required placeholder="Your phone number">
+                                    @if ($errors->has('phone'))
+                                    <span class="help-block">
+                                        <strong style="color:red;">{{ $errors->first('phone') }}</strong>
+                                    </span>
+                                @endif
                                 </div>
                             </div>
 
                             <div class="col-lg-12 col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Please enter your message" placeholder="Write your message..."></textarea>
-                                    <div class="help-block with-errors"></div>
+                                    <textarea name="message"  class="form-control {{ $errors->has('message') ? ' has-error' : '' }}" cols="30" rows="6" required placeholder="Write your message..."></textarea>
+                                    @if ($errors->has('message'))
+                                    <span class="help-block">
+                                        <strong style="color:red;">{{ $errors->first('message') }}</strong>
+                                    </span>
+                                @endif
                                 </div>
                             </div>
 
                             <div class="col-lg-12 col-md-12 text-center">
                                 <button type="submit" class="default-btn-one">Send Message</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
