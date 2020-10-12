@@ -33,8 +33,8 @@
             <div class="col-lg-6 col-sm-6">
                 <div style="height:30em !important;" class="service-card">
                     <i class='bx bxs-truck'></i>
-                    <h3>COLLECTION</h3>
-                    <p>Simply book when it best suits you and our couriers will pickup on demand . All you have to do is outline the package you need delivered and we’ll suggest the fastest, cheapest and most environmentally friendly option.</p>
+                    <h3>PICK-UP</h3>
+                    <p>Simply book when it best suits you and our couriers will pick up on demand. All you have to do is outline the package you need to be delivered and we’ll suggest the fastest, cheapest, and most environmentally friendly option.</p>
                     <a href="#" class="default-btn-two">Schedule</a>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 <div style="height:30em !important;" class="service-card">
                     <i class='fa fa-car'></i>
                     <h3>DROP OFF OPTION</h3>
-                    <p>With no extra fee, you can drop the parcel with us.</p>
+                    <p>Alternatively, you can benefit from a reduced price by dropping your parcel for delivery at our pick-up center; located at 63 Egbeda Idimu Road Egbeda, Lagos, Nigeria.</p>
                     <a href="#" class="default-btn-two">Schedule</a>
                 </div>
             </div>
@@ -129,7 +129,9 @@
                     <div class="form-row">
                         <div class="col-md-6">
                                 <label for="">Drop-Off Location</label>
-                        <select class="form-control" value="{{ old('d_loc1') }}" name="d_loc1" id="d_loc1" required>
+                                <input type="text" class="form-control" id="d_loc1" placeholder="Drop-Off Location" value="" name="d_loc1" required><br/>
+
+                        {{-- <select class="form-control" value="{{ old('d_loc1') }}" name="d_loc1" id="d_loc1" required>
                             <option selected>Select Drop-Off Location</option>
                             <option value="Agege">Agege</option>
                             <option value="Alimosho">Alimosho</option>
@@ -151,7 +153,7 @@
                             <option value="Ojo">Ojo</option>
                             <option value="Somolu">Somolu</option>
                             <option value="Surulere">Surulere</option>
-                        </select><br/>
+                        </select><br/> --}}
                         </div><br/>
                         <div class="col-md-6">
                                 <label for="">Drop-Off Address</label>
@@ -231,8 +233,10 @@
                     </div>
                     <div class="form-row">
                             <div class="col-md-6">
-                                    <label for="">Pick-Up Location</label>
-                            <select class="form-control" name="p_loc2" id="p_loc2" required>
+                                    <label for="">Pick-Up Location</label>                        
+                                    <input type="text" class="form-control" name="p_loc2" id="p_loc2" required><br/>
+
+                            {{-- <select class="form-control" name="p_loc2" id="p_loc2" required>
                                 <option selected>Select Pick-Up Location</option>
                                 <option value="Agege">Agege</option>
                                 <option value="Alimosho">Alimosho</option>
@@ -247,6 +251,7 @@
                                 <option value="Ikorodu">Ikorodu</option>
                                 <option value="Isheri">Isheri</option>
                                 <option value="Kosofe">Kosofe</option>
+                                
                                 <option value="Lagos Island">Lagos Island</option>
                                 <option value="Lagos Mainland">Lagos Mainland</option>
                                 <option value="Mushin">Mushin</option>
@@ -254,7 +259,7 @@
                                 <option value="Ojo">Ojo</option>
                                 <option value="Somolu">Somolu</option>
                                 <option value="Surulere">Surulere</option>
-                            </select><br/>
+                            </select><br/> --}}
                             </div>
                             <div class="col-md-6">
                                     <label for="">Pick-Up Address</label>
@@ -265,7 +270,9 @@
                     <div class="form-row">
                         <div class="col-md-6">
                                 <label for="">Drop-Off Location</label>
-                        <select class="form-control" name="d_loc2" id="d_loc2" required>
+                                <input type="text" class="form-control" id="d_loc2" value="" placeholder="Drop-Off Location" name="d_loc2" required><br/>
+
+                        {{-- <select class="form-control" name="d_loc2" id="d_loc2" required>
                             <option selected>Select Drop-Off Location</option>
                             <option value="Agege">Agege</option>
                             <option value="Alimosho">Alimosho</option>
@@ -287,7 +294,7 @@
                             <option value="Ojo">Ojo</option>
                             <option value="Somolu">Somolu</option>
                             <option value="Surulere">Surulere</option>
-                        </select><br/>
+                        </select><br/> --}}
                         </div>
                         <div class="col-md-6">
                                 <label for="">Drop-Off Address</label>

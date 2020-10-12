@@ -306,7 +306,7 @@
                     </div>
                 </div>
 
-                <div class="speciality-card">
+                <div lass="speciality-card">
                     <a href="#">
                         <img height="320" src="{{asset('img/hero-slider/cou4.jpg')}}" alt="image">
                     </a>

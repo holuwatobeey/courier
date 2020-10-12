@@ -18,7 +18,7 @@
             </div>
             <!-- End Page banner Area -->
         <!-- Services Area -->
-     <div style="background: white;" class="services-area ptb-100">
+     <div class="services-area ptb-100">
         <div class="container">
             <div class="section-title">
                 {{-- <span>What We Do</span> --}}
