@@ -28,7 +28,7 @@
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="{{ asset('img/favicon.png')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADAn9X5XMUshOILZm7byQ9kFLfdM9mYMk"></script>    
+        <script src="https://maps.googleapis.com/maps/api/js?key={{config('app.API_KEY')}}"></script>    
         <!-- <script src="http://maps.google.com/maps/api/js?sensor=false" 
               type="text/javascript"></script> -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
