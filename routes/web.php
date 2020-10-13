@@ -16,7 +16,20 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+Route::get('clear_cache', function () {
 
+    \Artisan::call('cache:clear');
+
+    dd("Cache is cleared");
+
+});
+Route::get('clear_config', function () {
+
+    \Artisan::call('config:clear');
+
+    dd("Config is cleared");
+
+});
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::get('/about', 'PagesController@about')->name('about');
