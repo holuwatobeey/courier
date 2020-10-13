@@ -47,6 +47,12 @@
 .nav-item{
     text-transform: uppercase;
 }
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: uppercase;
+}
 
 .download {
   width: 158px;

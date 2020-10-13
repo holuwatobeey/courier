@@ -35,7 +35,7 @@
                                     font-size: 20px;
                                     
                                   "></span>
-                                    <a href="tel: +2349075555000"> (+234) 907 555 5000</a>
+                                    <a href="tel: +234 815 901 5555"> (+234) 815 901 5555</a>
                            </p><br/>
                                 <p>
                                         <span class='bx bxs-phone-call'style="
@@ -100,7 +100,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control {{ $errors->has('name') ? ' has-error' : '' }}"  required placeholder="Your name">
+                                    <input type="text" name="name" class="form-control {{ $errors->has('name') ? ' has-error' : '' }}"  required placeholder="Name">
                                     @if ($errors->has('name'))
                                     <span class="help-block">
                                         <strong style="color:red;">{{ $errors->first('name') }}</strong>
@@ -111,7 +111,7 @@
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" name="email" class="form-control {{ $errors->has('email') ? ' has-error' : '' }}" required  placeholder="Your email address">
+                                    <input type="email" name="email" class="form-control {{ $errors->has('email') ? ' has-error' : '' }}" required  placeholder="Email address">
                                     @if ($errors->has('email'))
                                     <span class="help-block">
                                         <strong style="color:red;">{{ $errors->first('email') }}</strong>
@@ -122,7 +122,7 @@
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="msg_subject" class="form-control {{ $errors->has('msg_subject') ? ' has-error' : '' }}" required placeholder="Your Subject">
+                                    <input type="text" name="msg_subject" class="form-control {{ $errors->has('msg_subject') ? ' has-error' : '' }}" required placeholder="Subject">
                                     @if ($errors->has('msg_subject'))
                                     <span class="help-block">
                                         <strong style="color:red;">{{ $errors->first('msg_subject') }}</strong>
@@ -133,7 +133,7 @@
 
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="phone_number" class="form-control {{ $errors->has('phone') ? ' has-error' : '' }}"  required placeholder="Your phone number">
+                                    <input type="text" name="phone_number" class="form-control {{ $errors->has('phone') ? ' has-error' : '' }}"  required placeholder="Phone number">
                                     @if ($errors->has('phone'))
                                     <span class="help-block">
                                         <strong style="color:red;">{{ $errors->first('phone') }}</strong>
@@ -160,6 +160,30 @@
                         </div>
                     </form>
                 </div>
+                <div id="map" style="width: 100%; height: 400px; margin-top:2%;"></div>
+
+                <script>
+                    	var map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 10,
+		center: new google.maps.LatLng(6.550449, 3.574901),
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	  });
+      var ltlng = [];
+
+ltlng.push(new google.maps.LatLng( 6.550449, 3.574901));
+for (var i = 0; i < ltlng.length; i++) {
+                var marker = new google.maps.Marker
+                    (
+                    {
+                        // position: new google.maps.LatLng(-34.397, 150.644),
+                        position: ltlng[i],
+                        map: map,
+                        title: 'Primal Tek Plaza 1st Floor, Block A, Suite 29,63 Egbeda Idimu Road,Egbeda - Lagos.'
+                    }
+                    );
+            }
+
+                </script>
             </div>
         </div>
         <!-- Contact Area -->

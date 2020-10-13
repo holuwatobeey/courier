@@ -97,7 +97,7 @@
                                 </li>
                                
                                 <li>
-                                    <i class='bx bxs-whatsapp'></i>
+                                    {{-- <i class='bx bxs-whatsapp'></i> --}}
                                     <i class="fa fa-whatsapp" style="font-size:20px"></i>
                                     <a href="tel: +2349075555000"> (+234) 815 901 5555</a>
                                 </li>
@@ -113,7 +113,7 @@
                             </ul>
                             <ul class="info-list">
                                 <li style="padding-left: 0px;">
-                                    Saturday- Sunday 10am - 6pm
+                                    Saturday- 10am - 5pm
                                 </li>
                             </ul>
                         </div>

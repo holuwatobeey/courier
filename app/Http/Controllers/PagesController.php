@@ -25,6 +25,9 @@ class PagesController extends Controller
     public function terms(){
         return view('terms');
     }
+    public function pricing(){
+        return view('pricing');
+    }
     public function saveContact(Request $request) { 
         $this->validate($request, [
             'name' => 'required',

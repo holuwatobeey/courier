@@ -205,7 +205,8 @@
          
             <div class="row">
                     <div class="col-lg-3 col-sm-6">
-                        <div style="height:20em !important;" class="service-card">
+                        <div style="height:25em !important;" class="service-card">
+                                <i class="fa fa-list" aria-hidden="true"></i>
                                 <h3>RESULT DRIVEN</h3>
                                 <p>Our team of professional personnel are not just effective but also result-driven with a tireless commitment to providing a seamless process from booking to delivery.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
@@ -213,21 +214,27 @@
                     </div>
     
                     <div class="col-lg-3 col-sm-6">
-                        <div style="height:20em !important;" class="service-card">
+                        <div style="height:25em !important;" class="service-card">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+
                                 <h3>BUSINESS OR PERSONAL</h3>
                                 <p>Whether you need a one off delivery or a long term delivery partner for your business,charity or individual needs we've got you covered !</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div style="height:20em !important;" class="service-card">
+                        <div style="height:25em !important;" class="service-card">
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+
                                 <h3>RATED COURIERS</h3>
                                 <p>Individually reviewed by our team and rated by customers, you can expect a reliable, punctual and polite service.</p>
                                 <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
                         </div>
                     </div> 
                     <div class="col-lg-3 col-sm-6">
-                        <div style="height:20em !important;" class="service-card">
+                        <div style="height:25em !important;" class="service-card">
+                                <i class="fa fa-money" aria-hidden="true"></i>
+
                                 <h3>EXCLUSIVE PRICING </h3>
                                 <p>By partnering with us you'll receive exclusive business rates, plus quick booking access via our online booking platform.</p>
                                      <!-- <a href="#" class="default-btn-two">Try It Now!</a> -->
@@ -306,34 +313,20 @@
                     </div>
                 </div>
 
-                <div lass="speciality-card">
+                <div class="speciality-card">
                     <a href="#">
                         <img height="320" src="{{asset('img/hero-slider/cou4.jpg')}}" alt="image">
                     </a>
                     <div class="speciality-text">
                         <h3>
                             <a href="#">
-                               OPTIONAL DELIVERY
-                            </a>
-                        </h3>
-                        <p>Our top notch same-day delivery, next day delivery, and premium delivery services ensure your package will be in the right place at the right time. And guess what? No delays; No excuses.</p>
-                    </div>
-                </div>
-
-                
-                <div class="speciality-card">
-                    <a href="#">
-                        <img height="320" src="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
-                    </a>
-                    <div class="speciality-text">
-                        <h3>
-                            <a href="#">
-                               PARTNERSHIP
+                                PARTNERSHIP
                             </a>
                         </h3>
                         <p>Our valued-added partnership service gives businesses the edge over competitors and assists in delivering customers orders. But that’s just not enough. You need peace of mind and we can offer it.</p>
                     </div>
                 </div>
+
 
                 
 

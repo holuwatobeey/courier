@@ -86,40 +86,53 @@
                                 <div class="about-info-card">
                                     <h3 style="color:white;">Our Core Values</h3>
                                     <ul>
+                                        <div class="row">
+                                            <div class="col-md-4">
                                         <h5 style="color:white;">EXCELLENCE</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             Excellence is one of our core values, and we always take the time to celebrate this. We like to celebrate the big and the small.
                                         </li>
-                                        
+                                        </div>
+                                        <div class="col-md-4">
                                         <h5 style="color:white;">RESULTS DRIVEN</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             We work with exceptional people who do exceptional things.
                                         </li>
-                                       
+                                        </div>
+                                        <div class="col-md-4">
                                         <h5 style="color:white;">CUSTOMER CENTRIC</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             We strive to understand our customers and give them the best.   
                                         </li>
+                                        </div>
+                                        </div><br/>
+                                        <div class="row">
+                                             <div class="col-md-4">
                                         <h5 style="color:white;">GROW</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             We hire awesome people. You can move sideways, you can move up, and there are always new opportunities to learn.
                                         </li>
-                                        
+                                        </div>
+                                        <div class="col-md-4">
                                         <h5 style="color:white;">WIN-WIN-WIN</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             We ensure that each of our actions is in the best interests of our team, our company, and our customers.
                                         </li>
-                                       
+                                        </div>
+                                        <div class="col-md-4">
                                         <h5 style="color:white;">EQUALITY</h5>
                                         <li>
                                             <i class='bx bx-check'></i>
                                             We respect and value people of all backgrounds. Together, we create a more equal workplace and world.  
                                         </li>
+                                        </div>
+                                        </div>
+                                       
                                        
                                     </ul>
                                 </div>

@@ -42,4 +42,5 @@ Route::get('/careers', 'PagesController@careers')->name('careers');
 Route::get('/contact-us', 'PagesController@contact')->name('contact');
 Route::post('/contact-us', 'PagesController@saveContact');
 Route::get('/terms', 'PagesController@terms')->name('terms');
+Route::get('/pricing', 'PagesController@pricing')->name('pricing');
 // Route::post('/contact-us', 'PagesController@contactFunc')->name('contactFunc');
