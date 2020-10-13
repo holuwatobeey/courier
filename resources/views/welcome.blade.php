@@ -315,12 +315,27 @@
 
                 <div class="speciality-card">
                     <a href="#">
-                        <img height="320" src="{{asset('img/hero-slider/cou4.jpg')}}" alt="image">
+                        <img height="320" src="{{asset('img/hero-slider/cou4.jpg')}}"alt="image">
                     </a>
                     <div class="speciality-text">
                         <h3>
                             <a href="#">
-                                PARTNERSHIP
+                                OPTIONAL DELIVERY
+                            </a>
+                        </h3>
+                        <p>Our top notch same-day delivery, next day delivery, and premium delivery services ensure your package will be in the right place at the right time. And guess what? No delays; No excuses.</p>
+                    </div>
+                </div>
+
+                
+                <div class="speciality-card">
+                    <a href="#">
+                        <img height="320" src="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+                    </a>
+                    <div class="speciality-text">
+                        <h3>
+                            <a href="#">
+                               PARTNERSHIP
                             </a>
                         </h3>
                         <p>Our valued-added partnership service gives businesses the edge over competitors and assists in delivering customers orders. But that’s just not enough. You need peace of mind and we can offer it.</p>
