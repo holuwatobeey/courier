@@ -20,7 +20,7 @@
         <!-- End Page banner Area -->
 
         <!-- Start Sign in Area -->
-        <div class="sign-in-area ptb-100">
+        <div style="background:#efecec;" class="sign-in-area ptb-100">
             <div class="container">
                 <div class="section-title">
                     <h2>Sign In To Your Account!</h2>

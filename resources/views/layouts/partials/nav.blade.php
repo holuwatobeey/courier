@@ -35,22 +35,22 @@
                                 </li>
                            
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="https://facebook.com/Pointoutcourier" target="_blank">
                                     <i class='bx bxl-facebook'></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="https://twitter.com/Pointoutcourier" target="_blank">
                                     <i class='bx bxl-twitter'></i>
                                 </a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="#" target="_blank">
                                     <i class='bx bxl-linkedin'></i>
                                 </a>
-                            </li>
+                            </li> --}}
                             <li>
-                                <a href="#" target="_blank">
+                                <a href="https://instagram.com/Pointoutcourier" target="_blank">
                                     <i class='bx bxl-instagram'></i>
                                 </a>
                             </li>
@@ -172,7 +172,7 @@
                         @else
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                {{ Auth::user()->username }}   <i class='bx bx-chevron-down'></i>
+                                {{ Auth::user()->first_name }}   <i class='bx bx-chevron-down'></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">

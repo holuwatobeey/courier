@@ -20,7 +20,7 @@
 <!-- End Page banner Area -->
 
 <!-- Start Sign up Area -->
-<div class="sign-up-area ptb-100">
+<div style="background:#efecec;" class="sign-up-area ptb-100">
     <div class="container">
         <div class="section-title">
             <h2>Create an Account!</h2>

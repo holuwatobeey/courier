@@ -35,7 +35,7 @@
                     <i class='bx bxs-truck'></i>
                     <h3>PICK-UP</h3>
                     <p>Simply book when it best suits you and our couriers will pick up on demand. All you have to do is outline the package you need to be delivered and we’ll suggest the fastest, cheapest, and most environmentally friendly option.</p>
-                    <a href="#" class="default-btn-two">Schedule</a>
+                    <a href="#home" class="default-btn-two">Schedule</a>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                     <i class='fa fa-car'></i>
                     <h3>DROP OFF OPTION</h3>
                     <p>Alternatively, you can benefit from a reduced price by dropping your parcel for delivery at our pick-up center; located at 63 Egbeda Idimu Road Egbeda, Lagos, Nigeria.</p>
-                    <a href="#" class="default-btn-two">Schedule</a>
+                    <a href="#home" class="default-btn-two">Schedule</a>
                 </div>
             </div>
            
@@ -53,7 +53,7 @@
     </div>
 </div>
 <br/>
-<div class="d-flex justify-content-center">
+<div id="home" class="d-flex justify-content-center">
 <div style="margin-bottom:2%;" class="col-md-10">
     @if (session('failure'))
             <div class="alert alert-danger">

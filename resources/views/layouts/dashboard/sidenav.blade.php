@@ -61,12 +61,12 @@
 
         <li class="sidebar-item">
             <a class="sidebar-link" href="/see-users">
-              <i class="align-middle" data-feather="eye"></i> <span class="align-middle">See All Users</span>
+              <i class="align-middle" data-feather="eye"></i> <span class="align-middle">All Users</span>
             </a>
         </li>
         <li class="sidebar-item">
             <a class="sidebar-link" href="/see-deliveries">
-              <i class="align-middle" data-feather="eye"></i> <span class="align-middle">See All Deliveries</span>
+              <i class="align-middle" data-feather="eye"></i> <span class="align-middle">All Deliveries</span>
             </a>
         </li>
                 <li class="sidebar-item">

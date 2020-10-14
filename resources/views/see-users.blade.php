@@ -23,8 +23,9 @@
 <main class="content">
     <div class="container-fluid p-0">
         <div class="card">
-            <div class="card-header text-center"><h5>All users</h5></div>
+            <div class="card-header text-center"><h5>All Delivery Masters</h5></div>
             <div class="card-body">
+                <h3></h3>
                 <a href="#" data-toggle="modal" data-target="#exampleModalCenter" class="btn btn-success mr-auto">Add New Delivery Master</a><br/>
             <div class="table-responsive">
                    <br/>
@@ -35,30 +36,46 @@
                                 <th>Email</th>
                                 <th>Username</th>
                                 <th>Phone Number</th>
-                                <th>Role</th>
+                                <th>Action</th>
                                
                                 {{-- <th>Actions</th> --}}
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach ($users as $user)
+                            @foreach ($dms as $user)
+                            <form action="/see-users" method="POST">
+                                @csrf
+                            <input type="hidden" name="id" value="{{$user->id}}">
                             <tr>
                                 <td>{{$user->first_name}} {{$user->last_name}}</td>
                                 <td>{{$user->email}}</td>
                                 <td>{{$user->username}}</td>
                                 <td>{{$user->mobile}}</td>
                                 <td>
-                                    @if($user->role == 1)
-                                    Admin
-                                    @endif
-                                    @if($user->role == 2)
-                                    Delivery Master
-                                    @endif
-                                    @if($user->role == 0)
-                                    User
-                                    @endif
+                                <a href="#" data-toggle="modal" data-target="#exampleModal{{$user->id}}" class="btn btn-danger mr-auto">Delete Delivery Master</a>
                                 </td>
-                               
+                               <!-- Modal -->
+<div class="modal fade" id="exampleModal{{$user->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Delete Confirmation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Are you sure you want to delete this user?
+        </div>
+        <div class="modal-footer">
+            
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+          <button type="submit" name="delete" class="btn btn-primary">Yes</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
                                 
                                 {{-- <td class="table-action">
                                     <a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
@@ -72,6 +89,64 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+    <div class="card">
+        <div class="card-header text-center"><h5>All Users</h5></div>
+        <div class="card-body">
+            <h3></h3>
+        <div class="table-responsive">
+               <br/>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Username</th>
+                            <th>Phone Number</th>
+                            {{-- <th>Role</th> --}}
+                           
+                            {{-- <th>Actions</th> --}}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach ($users as $user)
+                        <tr>
+                            <td>{{$user->first_name}} {{$user->last_name}}</td>
+                            <td>{{$user->email}}</td>
+                            <td>{{$user->username}}</td>
+                            <td>{{$user->mobile}}</td>
+                            {{-- <td>
+                                @if($user->role == 1)
+                                Admin
+                                @endif
+                                @if($user->role == 2)
+                                Delivery Master
+                                @endif
+                                @if($user->role == 0)
+                                User
+                                @endif
+                            </td> --}}
+                           
+                            
+                            {{-- <td class="table-action">
+                                <a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" data-feather="trash"></i></a>
+                            </td> --}}
+                        </tr>
+                       @endforeach
+                    </tbody>
+                </table>
+                {{ $users->links() }}
+        </div>
+    </div>
+</div>
     </div>
 </main>
 
@@ -155,7 +230,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Add</button>
+          <button type="submit" name="add" class="btn btn-primary">Add</button>
         </div>
     </form>
       </div>

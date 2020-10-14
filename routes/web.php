@@ -61,6 +61,7 @@ Route::post('/profile/changePassword','ProfileController@edit')->name('changePas
 Route::get('/see-users', 'AdminController@users')->name('users')->middleware('auth')->middleware('admin');
 Route::get('/see-deliveries', 'AdminController@deliveries')->name('deliveries')->middleware('auth')->middleware('admin');
 Route::post('/add-user', 'AdminController@add_user')->name('add_user');
+Route::post('/see-users', 'AdminController@add_user')->name('deluser');
 Route::get('/delivery-requests', 'DmController@request')->name('request')->middleware('auth')->middleware('dm');
 Route::post('/delivery-requests', 'DmController@acceptreq')->name('acceptreq')->middleware('auth')->middleware('dm');
 Route::get('/manage-deliveries', 'DmController@manage')->name('manage')->middleware('auth')->middleware('dm');

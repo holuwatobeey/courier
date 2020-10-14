@@ -12,8 +12,8 @@
                             <!-- <span>Since 1992</span> -->
                             <h1>DELIVERING ON TIME<br> EVERYTIME</h1>
                             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
-                            <a href="#" class="default-btn-one mr-3">GET IN TOUCH</a>
-                            <a href="#" class="default-btn-two">REQUEST A COURIER</a>
+                            <a href="/contact-us" class="default-btn-one mr-3">GET IN TOUCH</a>
+                            <a href="/schedule" class="default-btn-two">REQUEST A COURIER</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
 
                             <!-- <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p> -->
                             
-                            <a href="about.html" class="default-btn-one btn-bs">Learn More</a>
+                            <a href="/about" class="default-btn-one btn-bs">Learn More</a>
                         </div>
                     </div>
                 </div>

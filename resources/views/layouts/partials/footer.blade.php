@@ -41,10 +41,10 @@
                     
                             <ul class="footer-text">
                                 <li>
-                                    <a href="#">- Join Us</a>
+                                    <a href="/careers">- Join Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">- Pricing</a>
+                                    <a href="/pricing">- Pricing</a>
                                 </li>
                                 <li>
                                     <a href="/terms">- Terms and conditions</a>

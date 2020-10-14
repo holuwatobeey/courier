@@ -176,7 +176,7 @@
                                         <h1 style="color:white;" class="display-1">{{count($users)}}</h1>
                                             </div>
                                         </div>
-                                        <a href="/see-users">See All Users</a>
+                                        <a href="/see-users">All Users</a>
                                         </div>
                                         <div class="col-md-6">
                                         <div class="card card-inverse card-danger">
@@ -188,7 +188,7 @@
                                         <h1 style="color:white;" class="display-1">{{count($admin_schedules)}}</h1>
                                             </div>
                                         </div>
-                                        <a href="/see-deliveries">See All Deliveries</a>
+                                        <a href="/see-deliveries">All Deliveries</a>
                                         </div>
          
                              </div>
