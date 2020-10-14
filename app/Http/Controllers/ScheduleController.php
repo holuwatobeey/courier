@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
 use Session;
 use Paystack;
+use DB;
 use App\Schedule;
 
 
@@ -134,11 +135,19 @@ class ScheduleController extends Controller
                     // 'pickup_addr' => $paymentDetails['data'] ['metadata']['pickup_addr'],
                     'dropoff_loc' =>  $meta->{'dropoff_loc'},
                     'dropoff_addr' => $meta->{'dropoff_addr'},
-                    'delivery_opt' => $meta->{'delivery_option'}
+                    'delivery_opt' => $meta->{'delivery_option'},
+                    'status' => 'Pending',
                 
                 
                 ]);
                 if($schedule->save()){
+                    $users = DB::table('users')->where('role', 2)->get();
+                    foreach ($users as $user) {
+                        \Mail::send('new_delivery', ['user' => $user], function ($m) use ($user) {
+                                $m->from('horluwatowbeey@gmail.com', 'POINTOUT COURIER');
+                                $m->to($user->email, $user->username)->subject('New Delivery Schedule');
+                          });
+                    }
                     // \Mail::send('schedule_email',
                     // array(
                     //     'name' => $user->name,
@@ -182,11 +191,19 @@ class ScheduleController extends Controller
                     'pickup_addr' => $meta->{'pickup_addr'},
                     'dropoff_loc' =>  $meta->{'dropoff_loc'},
                     'dropoff_addr' => $meta->{'dropoff_addr'},
-                    'delivery_opt' => $meta->{'delivery_option'}
+                    'delivery_opt' => $meta->{'delivery_option'},
+                    'status' => 'Pending',
                 
                 
                 ]);
                 if($schedule->save()){
+                    $users = DB::table('users')->where('role', 2)->get();
+                    foreach ($users as $user) {
+                        \Mail::send('new_delivery', ['user' => $user], function ($m) use ($user) {
+                                $m->from('horluwatowbeey@gmail.com', 'POINTOUT COURIER');
+                                $m->to($user->email, $user->username)->subject('New Delivery Schedule');
+                          });
+                    }
                     // \Mail::send('schedule_email',
                     // array(
                     //     'name' => $user->name,

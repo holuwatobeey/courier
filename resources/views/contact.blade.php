@@ -160,8 +160,9 @@
                         </div>
                     </form>
                 </div>
-                <div id="map" style="width: 100%; height: 400px; margin-top:2%;"></div>
-
+                {{-- <div id="map" style="width: 100%; height: 400px; margin-top:2%;"></div> --}}
+                <br/>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7926.874029678905!2d3.2895895751330526!3d6.592479747988222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b904616afa38b%3A0xb91bbe4d821d1457!2sPOINTOUT%20FACILITIES%20MANAGEMENT%20LIMITED!5e0!3m2!1sen!2sus!4v1602653344891!5m2!1sen!2sus" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 <script>
                     	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 10,

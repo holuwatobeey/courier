@@ -63,9 +63,10 @@
                     <div class="col-md-12">
                             <h2 align="center" style="color:white">TRACK A DELIVERY</h2><br/>
                             
-                            <form>
+                         <form action="/track" method="POST">
+                            @csrf
                             <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Track Your Parcel" aria-label="Track Your Parcel" aria-describedby="basic-addon2">
+                            <input type="text" name="track" class="form-control" placeholder="Track Your Parcel" aria-label="Track Your Parcel" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button style="background:#c90c0c; border:1px solid #c90c0c; color:white;" type="submit" class="input-group-text" id="basic-addon2">Track</button>
                             </div>
@@ -84,6 +85,25 @@
     
     <div class="about-area pb-100">
         <div class="container">
+            @if (session('status'))
+    <div style="padding:1%" class="alert alert-success">
+        {{ session('status') }}
+    </div><br/>
+@endif
+@if (session('failure'))
+    <div style="padding:1%" class="alert alert-danger">
+        {{ session('failure') }}
+    </div><br/>
+@endif
+@if ($errors->any())
+<div style="padding:1%" class="alert alert-danger">
+    <ul>
+        @foreach ($errors->all() as $message)
+            <li>{{ $message }}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
             <div class="row">
 
                 <div class="col-lg-6 wow fadeInLeft slower">

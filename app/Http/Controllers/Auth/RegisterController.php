@@ -63,7 +63,7 @@ class RegisterController extends Controller
     //     return redirect()->action('ScheduleController@schedule');
     // }
     if(session('link') != url('/schedule')){
-        return '/';
+        return '/dashboard';
     }
     else{
         return session('link');
@@ -109,6 +109,7 @@ class RegisterController extends Controller
             'username' => $data['username'],
             'mobile' => $data['mobile'],
             'email' => $data['email'],
+            'role' => 0,
             'password' => Hash::make($data['password']),
         ]);
     }

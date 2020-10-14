@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Contact; 
 use Mail;
+use DB;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -63,5 +64,22 @@ class PagesController extends Controller
 
           return back()->with('status', 'Thank you for contacting us! We will get in touch very soon.');
 
+    }
+    public function track(Request $request){
+        $tnumber = $request->get('track');
+        $track = DB::table('schedules')->where('tracking_number', $tnumber)->get();
+        if(count($track) == 1){
+            return view('track')->with(array('track'=>$track));
+
+        }
+        else{
+            return back()->with('failure', 'Sorry, the tracking number provided does not match any of our record..');
+        }
+        // dd($getresult);
+        // $getfinal = (object) $getresult;
+        // $track = json_decode($getfinal, true);
+    }
+    public function viewtrack(){
+        return view('track');
     }
 }

@@ -20,7 +20,7 @@
                             <li>
                                     
                                    
-                                    <a href="tel: +2349040002211"><i class='bx bxs-phone-call'></i> (+234) 904 000 2211 </a>  <a href="tel: +2349075555000"> &nbsp;&nbsp; <i class="fa fa-whatsapp" style="font-size:17px"></i>((+234) 815 901 5555</a>   
+                                    <a href="tel: +2349040002211"><i class='bx bxs-phone-call'></i> (+234) 904 000 2211 </a>  <a href="tel: +2349075555000"> &nbsp;&nbsp; <i class="fa fa-whatsapp" style="font-size:17px"></i>(+234) 815 901 5555</a>   
                             </li>
                         </ul>
                     </div>
@@ -176,6 +176,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
+                                    <a class="nav-link" href="/dashboard" >
+                                     Dashboard
+                                 </a>
                                     <a class="nav-link" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
