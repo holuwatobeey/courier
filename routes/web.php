@@ -31,6 +31,14 @@ Route::get('clear_config', function () {
     dd("Config is cleared");
 
 });
+Route::get('clear_view', function () {
+
+    \Artisan::call('view:clear');
+
+    dd("View is cleared");
+
+});
+
 Route::get('/dashboard', 'HomeController@index')->name('home')->middleware('auth');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
 Route::get('/about', 'PagesController@about')->name('about');
