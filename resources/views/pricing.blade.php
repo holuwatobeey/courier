@@ -91,9 +91,20 @@
         
                     ltlng.push(new google.maps.LatLng(latitude_point, longitude_point));
                     ltlng.push(new google.maps.LatLng( 6.550449, 3.574901));
-            
-              getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
-              alert(getPrice);
+                    var directionsService = new google.maps.DirectionsService();
+
+var request = {
+  origin      : document.getElementById("address1").value, // a city, full address, landmark etc
+  destination : 'Primal Tek Plaza 1st Floor, Block A, Suite 29, 63 Egbeda, Idimu Rd, Egbeda, Lagos, Nigeria',
+  travelMode  : google.maps.DirectionsTravelMode.DRIVING
+};
+
+directionsService.route(request, function(response, status) {
+  if ( status == google.maps.DirectionsStatus.OK ) {
+    var getPrice = ( Math.round(response.routes[0].legs[0].distance.value /1000) ); // the distance in metres
+
+
+    alert(getPrice);
               if(getPrice <=5 ){
                 resultPrice = 700;
               }
@@ -112,7 +123,7 @@
               else if(getPrice >=32 && getPrice<=36){
                 resultPrice = 3000;
               }
-              else if(getPrice >=37 && getPrice<=40){
+                else if(getPrice >=37 && getPrice<=40){
                 resultPrice = 3500;
               }
               else{
@@ -127,6 +138,15 @@
               var display=document.getElementById("display")
               display.innerHTML=final_result;
         
+  }
+  else {
+    // oops, there's no route between these two locations
+    // every time this happens, a kitten dies
+    // so please, ensure your address is formatted properly
+  }
+});
+              // getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
+             
             
             
             

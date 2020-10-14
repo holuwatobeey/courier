@@ -364,39 +364,53 @@
 
             ltlng.push(new google.maps.LatLng(latitude_point, longitude_point));
             ltlng.push(new google.maps.LatLng( 6.550449, 3.574901));
-	
-	  getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
-      if(getPrice <=5 ){
-        resultPrice = 700;
-      }
-      else if(getPrice >=5 && getPrice<=15){
-        resultPrice = 1300;
-      }
-      else if(getPrice >=16 && getPrice<=20){
-        resultPrice = 1600;
-      }
-      else if(getPrice >=21 && getPrice<=25){
-        resultPrice = 2000;
-      }
-      else if(getPrice >=26 && getPrice<=31){
-        resultPrice = 2500;
-      }
-      else if(getPrice >=32 && getPrice<=36){
-        resultPrice = 3000;
-      }
-      else if(getPrice >=37 && getPrice<=40){
-        resultPrice = 3500;
-      }
-      else{
-        resultPrice = 4000;
-      }
-      document.cookie = 'INs_NU='+resultPrice;
-	  naira = "The estimated price is ₦"
-	  var final_result = naira.concat(resultPrice);
+            var directionsService = new google.maps.DirectionsService();
 
-	//   alert(final_result);
+var request = {
+  origin      : document.getElementById("address1").value, // a city, full address, landmark etc
+  destination : 'Primal Tek Plaza 1st Floor, Block A, Suite 29, 63 Egbeda, Idimu Rd, Egbeda, Lagos, Nigeria',
+  travelMode  : google.maps.DirectionsTravelMode.DRIVING
+};
 
-	  var display=document.getElementById("display")
+directionsService.route(request, function(response, status) {
+  if ( status == google.maps.DirectionsStatus.OK ) {
+    var getPrice = ( Math.round(response.routes[0].legs[0].distance.value /1000) ); // the distance in metres
+
+
+    // alert(getPrice);
+              if(getPrice <=5 ){
+                resultPrice = 700;
+              }
+              else if(getPrice >=5 && getPrice<=15){
+                resultPrice = 1300;
+              }
+              else if(getPrice >=16 && getPrice<=20){
+                resultPrice = 1600;
+              }
+              else if(getPrice >=21 && getPrice<=25){
+                resultPrice = 2000;
+              }
+              else if(getPrice >=26 && getPrice<=31){
+                resultPrice = 2500;
+              }
+              else if(getPrice >=32 && getPrice<=36){
+                resultPrice = 3000;
+              }
+                else if(getPrice >=37 && getPrice<=40){
+                resultPrice = 3500;
+              }
+              else{
+                resultPrice = 4000;
+              }
+              document.cookie = 'INs_NU='+resultPrice;
+              naira = "The estimated price is ₦"
+              var final_result = naira.concat(resultPrice);
+        
+            //   alert(final_result);
+        
+              
+
+              var display=document.getElementById("display")
       display.innerHTML=final_result + '<br/><br/><button type="submit" id="proceed" name="peno" class="default-btn-one">Proceed to payment</button>';
 	//   document.getElementById("proceed").style.visibility = "visible";
 
@@ -415,6 +429,46 @@
          var fid = {'desc':desc, 'name':name, 'phone':phone, email:email, 'package_value': package_value, 'btn': 'peno', 'package_size':package_size, 'pickup_date':pickup_date,'pickup_time':pickup_time,'dropoff_loc':dropoff_loc,'dropoff_addr':dropoff_addr, 'delivery_option':delivery_option}; 
          metadata.value = JSON.stringify(fid); 
     
+        
+  }
+  else {
+    // oops, there's no route between these two locations
+    // every time this happens, a kitten dies
+    // so please, ensure your address is formatted properly
+  }
+});
+	  // getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
+    //   if(getPrice <=5 ){
+    //     resultPrice = 700;
+    //   }
+    //   else if(getPrice >=5 && getPrice<=15){
+    //     resultPrice = 1300;
+    //   }
+    //   else if(getPrice >=16 && getPrice<=20){
+    //     resultPrice = 1600;
+    //   }
+    //   else if(getPrice >=21 && getPrice<=25){
+    //     resultPrice = 2000;
+    //   }
+    //   else if(getPrice >=26 && getPrice<=31){
+    //     resultPrice = 2500;
+    //   }
+    //   else if(getPrice >=32 && getPrice<=36){
+    //     resultPrice = 3000;
+    //   }
+    //   else if(getPrice >=37 && getPrice<=40){
+    //     resultPrice = 3500;
+    //   }
+    //   else{
+    //     resultPrice = 4000;
+    //   }
+    //   document.cookie = 'INs_NU='+resultPrice;
+	  // naira = "The estimated price is ₦"
+	  // var final_result = naira.concat(resultPrice);
+
+	//   alert(final_result);
+
+	  
 	
 	
 	function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
@@ -523,40 +577,51 @@
 
             ltlng.push(new google.maps.LatLng(latitude_point, longitude_point));
             ltlng.push(new google.maps.LatLng( 6.550449, 3.574901));
-	
-	  getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
-      
-      if(getPrice <=5 ){
-        resultPrice = 700;
-      }
-      else if(getPrice >=5 && getPrice<=15){
-        resultPrice = 1400;
-      }
-      else if(getPrice >=16 && getPrice<=20){
-        resultPrice = 1700;
-      }
-      else if(getPrice >=21 && getPrice<=25){
-        resultPrice = 2100;
-      }
-      else if(getPrice >=26 && getPrice<=31){
-        resultPrice = 2600;
-      }
-      else if(getPrice >=32 && getPrice<=36){
-        resultPrice = 3100;
-      }
-      else if(getPrice >=37 && getPrice<=40){
-        resultPrice = 3600;
-      }
-      else{
-        resultPrice = 4100;
-      }
-      document.cookie = 'INs_NU='+resultPrice;
-	  naira = "The estimated price is ₦"
-	  var final_result = naira.concat(resultPrice);
+            var directionsService = new google.maps.DirectionsService();
 
-	//   alert(final_result);
+var request = {
+  origin      : document.getElementById("address2").value, // a city, full address, landmark etc
+  destination : 'Primal Tek Plaza 1st Floor, Block A, Suite 29, 63 Egbeda, Idimu Rd, Egbeda, Lagos, Nigeria',
+  travelMode  : google.maps.DirectionsTravelMode.DRIVING
+};
 
-	  var display=document.getElementById("display2")
+directionsService.route(request, function(response, status) {
+  if ( status == google.maps.DirectionsStatus.OK ) {
+    var getPrice = ( Math.round(response.routes[0].legs[0].distance.value /1000) ); // the distance in metres
+
+
+    // alert(getPrice);
+              if(getPrice <=5 ){
+                resultPrice = 700;
+              }
+              else if(getPrice >=5 && getPrice<=15){
+                resultPrice = 1300;
+              }
+              else if(getPrice >=16 && getPrice<=20){
+                resultPrice = 1600;
+              }
+              else if(getPrice >=21 && getPrice<=25){
+                resultPrice = 2000;
+              }
+              else if(getPrice >=26 && getPrice<=31){
+                resultPrice = 2500;
+              }
+              else if(getPrice >=32 && getPrice<=36){
+                resultPrice = 3000;
+              }
+                else if(getPrice >=37 && getPrice<=40){
+                resultPrice = 3500;
+              }
+              else{
+                resultPrice = 4000;
+              }
+              document.cookie = 'INs_NU='+resultPrice;
+              naira = "The estimated price is ₦"
+              var final_result = naira.concat(resultPrice);
+        
+            //   alert(final_result);
+        
+            var display=document.getElementById("display2")
       display.innerHTML=final_result + '<br/><br/><button type="submit" name="powt" id="proceed" class="default-btn-one">Proceed to payment</button>';
 	//   document.getElementById("proceed").style.visibility = "visible";
       var firstmeta = document.getElementById('metadata');
@@ -577,6 +642,47 @@
          var fid = {'desc':desc, 'name':name, 'phone':phone, 'email':email, 'package_value': package_value, 'btn': 'powt', 'package_size':package_size, 'pickup_date':pickup_date,'pickup_time':pickup_time,'pickup_loc':pickup_location,'pickup_addr':pickup_address,'dropoff_loc':dropoff_loc,'dropoff_addr':dropoff_addr, 'delivery_option':delivery_option}; 
          metadata.value = JSON.stringify(fid); 
          firstmeta.removeAttribute("name");
+        
+  }
+  else {
+    // oops, there's no route between these two locations
+    // every time this happens, a kitten dies
+    // so please, ensure your address is formatted properly
+  }
+});
+	  // getPrice = (getDistanceFromLatLonInKm(6.550449, 3.574901, latitude_point, longitude_point)).toFixed(1);
+      
+    //   if(getPrice <=5 ){
+    //     resultPrice = 700;
+    //   }
+    //   else if(getPrice >=5 && getPrice<=15){
+    //     resultPrice = 1400;
+    //   }
+    //   else if(getPrice >=16 && getPrice<=20){
+    //     resultPrice = 1700;
+    //   }
+    //   else if(getPrice >=21 && getPrice<=25){
+    //     resultPrice = 2100;
+    //   }
+    //   else if(getPrice >=26 && getPrice<=31){
+    //     resultPrice = 2600;
+    //   }
+    //   else if(getPrice >=32 && getPrice<=36){
+    //     resultPrice = 3100;
+    //   }
+    //   else if(getPrice >=37 && getPrice<=40){
+    //     resultPrice = 3600;
+    //   }
+    //   else{
+    //     resultPrice = 4100;
+    //   }
+    //   document.cookie = 'INs_NU='+resultPrice;
+	  // naira = "The estimated price is ₦"
+	  // var final_result = naira.concat(resultPrice);
+
+	//   alert(final_result);
+
+	  
 
 	
 	
