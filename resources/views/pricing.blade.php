@@ -64,7 +64,7 @@
             var geocoder = new google.maps.Geocoder();
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 10,
-                center: new google.maps.LatLng(6.550449, 3.574901),
+                center: new google.maps.LatLng(6.6011965,3.2924473),
                 mapTypeId: google.maps.MapTypeId.ROADMAP
               });
             
@@ -83,14 +83,14 @@
             
                     var locations = [
                 ['My address', latitude_point, longitude_point, 1],
-                ['Store address', 6.550449, 3.574901, 2],
+                ['Store address', 6.6011965,3.2924473, 2],
                
               ];
         
               var ltlng = [];
         
                     ltlng.push(new google.maps.LatLng(latitude_point, longitude_point));
-                    ltlng.push(new google.maps.LatLng( 6.550449, 3.574901));
+                    ltlng.push(new google.maps.LatLng( 6.6011965,3.2924473));
                     var directionsService = new google.maps.DirectionsService();
 
 var request = {
