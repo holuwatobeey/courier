@@ -123,7 +123,7 @@
                         </div><br/>
                         <div class="col-md-6">
                                 <label for="">Pick Up Time</label>
-                        <input type="text" class="form-control" placeholder="Pick up time (E.g 9:00am - 10:00am)" value="{{ old('time1') }}" name="time1" id="time1" required><br/>
+                        <input type="time" class="form-control" placeholder="" value="{{ old('time1') }}" name="time1" id="time1" required><br/>
                         </div> <br/>    
                     </div>
                     <div class="form-row">
@@ -228,7 +228,7 @@
                         </div>
                         <div class="col-md-6">
                                 <label for="">Pick Up Time</label>
-                        <input type="text" class="form-control" placeholder="Pick up time (E.g 9:00am - 10:00am)" name="time2" id="time2" required><br/>
+                        <input type="time" class="form-control" placeholder="" name="time2" id="time2" required><br/>
                         </div> 
                     </div>
                     <div class="form-row">

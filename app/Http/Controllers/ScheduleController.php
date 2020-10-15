@@ -136,7 +136,7 @@ class ScheduleController extends Controller
                     'dropoff_loc' =>  $meta->{'dropoff_loc'},
                     'dropoff_addr' => $meta->{'dropoff_addr'},
                     'delivery_opt' => $meta->{'delivery_option'},
-                    'status' => 'Pending',
+                    'status' => "Pending",
                 
                 
                 ]);
@@ -148,6 +148,17 @@ class ScheduleController extends Controller
                                 $m->to($user->email, $user->username)->subject('New Delivery Schedule');
                           });
                     }
+                    \Mail::send('thanks',
+                    array(
+                        'name' =>$meta->{'name'},
+                        'email' => $meta->{'email'},
+                        'tnumber' => $tnumber,
+                    ), function($message) use ($meta)
+                      {
+                         $message->from('horluwatowbeey@gmail.com');
+                         $message->to($meta->{'email'});
+                         $message->subject('Delivery Schedule Received');
+                      });
                     // \Mail::send('schedule_email',
                     // array(
                     //     'name' => $user->name,
@@ -162,7 +173,7 @@ class ScheduleController extends Controller
                     // });
                 }
                 
-                return redirect('/schedule')->with('status', 'Schedule successful!');
+                return redirect('/dashboard')->with('status', 'Schedule successful!');
                 
                     // return redirect('/deposit')->with('failure', $e->getMessage());
                     // return redirect('/deposit')->with('failure', 'Something went wrong, Please try again.');
@@ -192,7 +203,7 @@ class ScheduleController extends Controller
                     'dropoff_loc' =>  $meta->{'dropoff_loc'},
                     'dropoff_addr' => $meta->{'dropoff_addr'},
                     'delivery_opt' => $meta->{'delivery_option'},
-                    'status' => 'Pending',
+                    'status' => "Pending",
                 
                 
                 ]);
@@ -204,6 +215,21 @@ class ScheduleController extends Controller
                                 $m->to($user->email, $user->username)->subject('New Delivery Schedule');
                           });
                     }
+
+                    \Mail::send('thanks',
+                    array(
+                        'name' => $meta->{'name'},
+                        'email' => $meta->{'email'},
+                        'tnumber' => $tnumber,
+                    ), function($message) use ($meta)
+                      {
+                         $message->from('horluwatowbeey@gmail.com');
+                         $message->to($meta->{'email'});
+                         $message->subject('Delivery Schedule Received');
+                      });
+
+                      
+                    
                     // \Mail::send('schedule_email',
                     // array(
                     //     'name' => $user->name,
@@ -218,7 +244,7 @@ class ScheduleController extends Controller
                     // });
                 }
                 
-                return redirect('/schedule')->with('status', 'Schedule successful!');
+                return redirect('/dashboard')->with('status', 'Schedule successful!');
                 
                     // return redirect('/deposit')->with('failure', $e->getMessage());
                     // return redirect('/deposit')->with('failure', 'Something went wrong, Please try again.');

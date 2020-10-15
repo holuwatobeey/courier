@@ -34,7 +34,7 @@
 
                
                     @if (session('status'))
-                        <div class="alert alert-success" role="alert">
+                        <div style="padding: 1%;" class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
@@ -146,7 +146,7 @@
                                             Next Day Delivery
                                             @endif
                                         </td>
-                                        <td></td>
+                                        <td>{{$schedule->status}}</td>
                                         
                                         {{-- <td class="table-action">
                                             <a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
